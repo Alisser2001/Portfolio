@@ -6,4 +6,5 @@ export const Container = styled.nav`
     align-items: center;
     color: white;
     background-color: #131A22;
+    margin: 0;
 `
