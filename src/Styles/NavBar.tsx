@@ -5,7 +5,7 @@ export const Container = styled.nav`
     justify-content:initial;
     align-items: center;
     color: white;
-    background-color: #1c1c1c;
+    background-color: #161616;
     margin: 0;
     border-bottom: white 1px solid;
 `
