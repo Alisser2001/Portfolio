@@ -1,10 +1,10 @@
 import React from "react";
-import { Container } from "../Styles/NavBar";
+import { Container, Title } from "../Styles/NavBar";
 
 export default function NavBar() {
     return (
         <Container>
-            <h1>Portfolio</h1>
+            <Title>Portfolio</Title>
         </Container>
     )
 }
