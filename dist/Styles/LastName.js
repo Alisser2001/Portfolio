@@ -1,7 +1,11 @@
-import styled from "styled-components";
-
-
-export const Container = styled.div`
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.LastNameContainer = exports.Container = void 0;
+const styled_components_1 = __importDefault(require("styled-components"));
+exports.Container = styled_components_1.default.div `
     display: flex;
     flex-direction: row;
     justify-content: end;
@@ -11,8 +15,8 @@ export const Container = styled.div`
     position: absolute;
     top: 75vh;
     box-sizing: border-box;
-`
-export const LastNameContainer = styled(Container)`
+`;
+exports.LastNameContainer = (0, styled_components_1.default)(exports.Container) `
     h1{
         all: unset;
         display: flex;
@@ -37,4 +41,4 @@ export const LastNameContainer = styled(Container)`
             padding: 0px 50px;
         }
     }
-`
+`;

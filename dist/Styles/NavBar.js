@@ -1,6 +1,11 @@
-import styled from "styled-components";
-
-export const Container = styled.div`
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AnchorList = exports.OptionsList = exports.Options = exports.Title = exports.Container = void 0;
+const styled_components_1 = __importDefault(require("styled-components"));
+exports.Container = styled_components_1.default.div `
     display: flex;
     width: 100vw;
     height: 25vh;
@@ -11,8 +16,8 @@ export const Container = styled.div`
     border-bottom: rgb(252,204,4) 5px solid;
     position: absolute;
     box-sizing: border-box;
-`
-export const Title = styled.h1`
+`;
+exports.Title = styled_components_1.default.h1 `
     all: unset;
     display: flex;
     align-items: center;
@@ -30,9 +35,8 @@ export const Title = styled.h1`
         font-size: 7vw;
         padding: 0px 30px;
     }
-`
-
-export const Options = styled.ul`
+`;
+exports.Options = styled_components_1.default.ul `
     all: unset;
     display: flex;
     flex-direction: row;
@@ -41,8 +45,8 @@ export const Options = styled.ul`
     justify-content: center;
     margin: 0;
     list-style: none;
-`
-export const OptionsList = styled(Options)`
+`;
+exports.OptionsList = (0, styled_components_1.default)(exports.Options) `
     li{
         all: unset;
         width: 33%;
@@ -66,8 +70,8 @@ export const OptionsList = styled(Options)`
             max-width: 66%;
         }
     }
-`
-export const AnchorList = styled(OptionsList)`
+`;
+exports.AnchorList = (0, styled_components_1.default)(exports.OptionsList) `
     a{
         width: 100%;
         display: flex;
@@ -91,4 +95,4 @@ export const AnchorList = styled(OptionsList)`
     .anchor3 {
         background-image: url("https://cdn-icons-png.flaticon.com/512/9980/9980463.png");
     }
-`
+`;
