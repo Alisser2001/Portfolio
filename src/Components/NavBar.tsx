@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Options, Title, OptionsList, AnchorList } from "../Styles/NavBar";
+import { Container, Title, AnchorList } from "../Styles/NavBar";
 
 export default function NavBar() {
     return (

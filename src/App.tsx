@@ -1,17 +1,12 @@
-import React from 'react';
-import LastName from './Components/LastName';
-import Name from './Components/Name';
-import Title from './Components/Title';
-import NavBar from './Components/NavBar';
+import Home from './Components/Home';
+import AboutMe from './Components/AboutMe';
 import { AppStyle } from './Styles/App';
 
 function App() {
   return (
     <AppStyle>
-      <NavBar/>
-      <Title/>
-      <Name/>
-      <LastName/>
+      <Home />
+      <AboutMe />
     </AppStyle>
   );
 }
