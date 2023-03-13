@@ -12,3 +12,4 @@ exports.HomeStyle = styled_components_1.default.div `
     background-repeat: no-repeat;
     background-size: cover;
 `;
+//# sourceMappingURL=Home.js.map

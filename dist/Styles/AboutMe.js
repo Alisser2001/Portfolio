@@ -13,7 +13,6 @@ exports.Container = styled_components_1.default.div `
     height: 100vh;
     max-height: 100vh;
     align-items: center;
-    top: 100vh;
     border-bottom: rgb(252,204,4) 5px solid;
     position: absolute;
     box-sizing: border-box;
@@ -37,3 +36,4 @@ exports.Info = styled_components_1.default.p `
     color: white;
     font-size: 1.813vw;
 `;
+//# sourceMappingURL=AboutMe.js.map

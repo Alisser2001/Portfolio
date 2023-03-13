@@ -12,8 +12,8 @@ exports.AppStyle = styled_components_1.default.div `
     box-sizing:border-box;
     font-family: 'Open Sans', sans-serif; 
     background-color: #161616;
-    height: 300vh;
-    max-height: 300vh;
+    height: 100vh;
+    max-height: 100vh;
     overflow-x: hidden;
 
     ::-webkit-scrollbar {
@@ -38,3 +38,4 @@ exports.AppStyle = styled_components_1.default.div `
         margin: 1vw;
     }
 `;
+//# sourceMappingURL=App.js.map

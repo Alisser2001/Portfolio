@@ -6,3 +6,4 @@ function Name() {
     return ((0, jsx_runtime_1.jsx)(Name_1.NameContainer, { children: (0, jsx_runtime_1.jsx)("h1", { children: "JUAN ESTIVEN" }) }));
 }
 exports.default = Name;
+//# sourceMappingURL=Name.js.map

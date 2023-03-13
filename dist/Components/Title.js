@@ -6,3 +6,4 @@ function Title() {
     return ((0, jsx_runtime_1.jsx)(Title_1.TitleContainer, { children: (0, jsx_runtime_1.jsx)("h1", { children: "PERSONAL" }) }));
 }
 exports.default = Title;
+//# sourceMappingURL=Title.js.map

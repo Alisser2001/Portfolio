@@ -52,7 +52,6 @@ export const OptionsList = styled(Options)`
         justify-content: center;
         margin: 0px;
         border-left: rgb(252,204,4) 5px solid;
-        box-sizing: border-box;
     }
     li:nth-child(3){
         border-right: rgb(252,204,4) 5px solid;
