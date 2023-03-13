@@ -1,14 +1,35 @@
-import { Container, Img, Info } from "../Styles/AboutMe";
+import React from "react";
+import { About, Container, Img, Info, Tecnologies } from "../Styles/AboutMe";
 
-export default function AboutMe(){
-    return(
+export const AboutMe: React.FC = ({ }) => {
+    return (
         <Container id="about">
-            <Img src="https://avatars.githubusercontent.com/u/105648476?s=400&u=fff12fd4784c9959f6054c37e3424ef01448b29d&v=4"/>
-            <Info>Hi there 👋 <br/><br/>
-            My name is Estiven Muñoz, Full Stack Developer with experience in technologies such as Node JS, React, Redux, SQL and Express, among other JavaScript frameworks and libraries. <br/>
-            Experience in SoyHenry's bootcamp as a Full Stack Developer for 8 months, I also have some previous certifications such as algorithms and data structures with JavaScript, relational database management and responsive web design with CSS.<br/>
-            I am a graduate of the SENA Systems Technician program in Colombia, with a duration of 6 months of theoretical learning and 6 months of practical learning, with experience in computer networks and preventive maintenance of computers.<br/>
+            <Img src="https://avatars.githubusercontent.com/u/105648476?s=400&u=fff12fd4784c9959f6054c37e3424ef01448b29d&v=4" />
+            <Info>
+                <About>
+                    Mi nombre es Estiven Muñoz, Full Stack Developer con experiencia trabajando
+                    en lenguajes como JavaScript, TypeScript, Python y Java. Principalmente
+                    enfocado al desarrollo back-end, he participado en distintos proyectos
+                    desarrollando funcionalidades CRUD para servidores web y en la creación de
+                    APIs de RESTful, además también cuento con experiencia en proyectos propios
+                    con el desarrollo del lado del cliente en el diseño de aplicaciones.
+                </About>
+                <Tecnologies>
+                    <p>JavaScript</p>
+                    <p>TypeScript</p>
+                    <p>Python</p>
+                    <p>Java</p>
+                    <p>NodeJS</p>
+                    <p>ReactJS</p>
+                    <p>Express</p>
+                    <p>Sequelize</p>
+                    <p>SQL</p>
+                    <p>Redux</p>
+                    <p>CSS 3</p>
+                    <p>Git Flow</p>
+                </Tecnologies>
             </Info>
+
         </Container>
     )
 }
