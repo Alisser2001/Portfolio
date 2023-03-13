@@ -1,13 +1,18 @@
 import Home from './Components/Home';
+import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import AboutMe from './Components/AboutMe';
 import { AppStyle } from './Styles/App';
 
 function App() {
   return (
-    <AppStyle>
-      <Home />
-      <AboutMe />
-    </AppStyle>
+    <Router>
+      <AppStyle>
+        <Routes>
+          <Route path="/home" Component={Home} />
+          <Route path="/about" Component={AboutMe} />
+        </Routes>
+      </AppStyle>
+    </Router>
   );
 }
 

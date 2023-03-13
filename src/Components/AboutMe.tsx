@@ -2,7 +2,7 @@ import { Container, Img, Info } from "../Styles/AboutMe";
 
 export default function AboutMe(){
     return(
-        <Container>
+        <Container id="about">
             <Img src="https://avatars.githubusercontent.com/u/105648476?s=400&u=fff12fd4784c9959f6054c37e3424ef01448b29d&v=4"/>
             <Info>Hi there 👋 <br/><br/>
             My name is Estiven Muñoz, Full Stack Developer with experience in technologies such as Node JS, React, Redux, SQL and Express, among other JavaScript frameworks and libraries. <br/><br/>
