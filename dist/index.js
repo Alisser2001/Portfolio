@@ -12,3 +12,4 @@ if (typeof document !== 'undefined') {
     const root = client_1.default.createRoot(element);
     root.render((0, jsx_runtime_1.jsx)(react_1.default.StrictMode, { children: (0, jsx_runtime_1.jsx)(App_1.default, {}) }));
 }
+//# sourceMappingURL=index.js.map

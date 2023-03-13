@@ -2,34 +2,7 @@ body {
     background-size: 100vw 150vh;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
-}
-
-body::-webkit-scrollbar {
-    background-color: transparent;
-}
-
-body::-webkit-scrollbar:vertical {
-    width: 1vw;
-}
-
-body::-webkit-scrollbar-track {
-    background-color: #161616;
-}
-
-body::-webkit-scrollbar-button {
-    display: none;
-}
-
-body::-webkit-scrollbar:horizontal {
-    height: 10px;
-}
-
-body::-webkit-scrollbar-thumb {
-    background-color: rgb(252, 204, 4);
-    border-radius: 20px;
-    border: 2px solid rgb(252, 204, 4);
-    margin: 1vw;
+    overflow: hidden;
 }
 
 @media (max-width: 720px) {
@@ -39,5 +12,32 @@ body::-webkit-scrollbar-thumb {
         margin: 0;
         padding: 0;
         max-height: 100vh;
+        overflow-y: visible;
+    }
+    body::-webkit-scrollbar {
+        background-color: transparent;
+    }
+    
+    body::-webkit-scrollbar:vertical {
+        width: 1vw;
+    }
+    
+    body::-webkit-scrollbar-track {
+        background-color: #161616;
+    }
+    
+    body::-webkit-scrollbar-button {
+        display: none;
+    }
+    
+    body::-webkit-scrollbar:horizontal {
+        height: 10px;
+    }
+    
+    body::-webkit-scrollbar-thumb {
+        background-color: rgb(252, 204, 4);
+        border-radius: 20px;
+        border: 2px solid rgb(252, 204, 4);
+        margin: 1vw;
     }
 }

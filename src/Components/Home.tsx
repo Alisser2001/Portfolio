@@ -8,7 +8,6 @@ import NavBar from './NavBar';
 export default function Home() {
     return (
             <HomeStyle id="home">
-                <NavBar />
                 <Title />
                 <Name />
                 <LastName />

@@ -7,13 +7,13 @@ export default function NavBar() {
             <Title>PORTFOLIO</Title>
             <AnchorList>
                 <li>
-                    <Link smooth to="/home" className="anchor1"/>
-                </li>
-                <li>
-                    <Link smooth to="/projects" className="anchor2"/>
+                    <Link smooth to="/" className="anchor1"/>
                 </li>
                 <li>
                     <Link smooth to="/about" className="anchor3"/>
+                </li>
+                <li>
+                    <Link smooth to="/projects" className="anchor2"/>
                 </li>
             </AnchorList>
         </Container>
