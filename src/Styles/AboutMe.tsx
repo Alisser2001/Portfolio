@@ -12,6 +12,10 @@ export const Container = styled.div`
     border-bottom: rgb(252,204,4) 5px solid;
     position: absolute;
     box-sizing: border-box;
+
+    @media(max-width: 900px){
+        flex-direction: column;
+    }
 `
 export const Img = styled.img`
     width: 30vw;
@@ -20,16 +24,98 @@ export const Img = styled.img`
     max-height: 60vh;
     padding: 0px 5vw;
     border-radius: 50%;
+    @media(max-width: 900px){
+        width: 45vw;
+        max-width: 45vw;
+        height: 50vh;
+        max-height: 50vh;
+        padding: 2vh 0px;
+    }
 `
 
-export const Info = styled.p`
+export const About = styled.p`
+    width: 50vw;
+    max-width: 50vw;
+    padding: 0 5.5vw;
+    height: 60vh;
+    max-height: 60vh;
+    font-family: 'Open Sans', sans-serif; 
+    text-align: center;
+    margin-top: 0;
+    color: white;
+    font-size: 1.6vw;
+    @media(max-width: 900px){
+        border-left: none;
+        padding: 2vh 5vw;
+        font-size: 3vw;
+        text-align: center;
+        width: 90vw;
+        max-width: 90vw;
+        height: 10vh;
+        max-height: 10vh;
+    }
+`
+
+export const Info = styled.div`
     width: 70vw;
     max-width: 70vw;
     height: 60vh;
     max-height: 60vh;
-    padding: 0px 5vw;
+    display: flex;
+    padding: 0px 0vw;
+    flex-direction: column;
     border-left: rgb(252,204,4) 5px solid;
-    font-family: 'Open Sans', sans-serif; 
-    color: white;
-    font-size: 1.8vw;
+    border-right: rgb(252,204,4) 5px solid;
+    box-sizing: border-box;
+    @media(max-width: 900px){
+        width: 100vw;
+        max-width: 100vw;
+        height: 50vh;
+        max-height: 50vh;
+        padding: 2vh 0px;
+        border-top: rgb(252,204,4) 5px solid;
+        border-left: none;
+        border-right: none;
+    }
+`
+
+export const Buttons = styled.ul`
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 50vw;
+    max-width: 50vw;
+    padding: 0 5.5vw;
+    height: 20vh;
+    max-height: 20vh;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0vh;
+    p:nth-child(2n){
+        border-top-left-radius: 5vw;
+        border-bottom-left-radius: 5vw;
+        border-top-right-radius: 5vw;
+        border-bottom-right-radius: 5vw;
+    }
+
+    @media (max-width: 900px){
+        width: 100vw;
+        max-width: 100vw;
+        padding: 0;
+    }
+`
+
+export const Tecnologies = styled(Buttons)`
+    p{
+        color: white;
+        width: 8vw;
+        max-width: 8vw;
+        height: 4vh;
+        max-height: 4vh;
+        font-size: 1.5vw;
+        padding: 5px;
+        margin: 0.5vh 1vw;
+        border: rgb(252,204,4) 5px solid;
+    }
 `

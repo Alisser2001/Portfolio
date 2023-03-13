@@ -57,10 +57,10 @@ export const OptionsList = styled(Options)`
         border-right: rgb(252,204,4) 5px solid;
     }
     @media(max-width: 900px){
-        li:nth-child(1), li:nth-child(2){
+        li:nth-child(1), li:nth-child(3){
             display: none;
         }
-        li:nth-child(3){
+        li:nth-child(2){
             width: 66%;
             max-width: 66%;
         }
@@ -77,17 +77,18 @@ export const AnchorList = styled(OptionsList)`
         background-position: center;
     }
     @media(max-width: 900px){
-        .anchor3{
-            background-size: 20vw 15vh;
+        .anchor2{
+            background-size: 25vw 15vh;
+            padding-left: 10vw;
         }
     }
     .anchor1 {
         background-image: url("https://cdn-icons-png.flaticon.com/512/9980/9980489.png");
     }
     .anchor2 {
-        background-image: url("https://cdn-icons-png.flaticon.com/512/9980/9980435.png");
+        background-image: url("https://cdn-icons-png.flaticon.com/512/9980/9980463.png");
     }
     .anchor3 {
-        background-image: url("https://cdn-icons-png.flaticon.com/512/9980/9980463.png");
+        background-image: url("https://cdn-icons-png.flaticon.com/512/9980/9980435.png");
     }
 `

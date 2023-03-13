@@ -1,7 +1,7 @@
 import {HashLink as Link} from "react-router-hash-link";
 import { Container, Title, AnchorList } from "../Styles/NavBar";
 
-export default function NavBar() {
+export const NavBar: React.FC = ({}) => {
     return (
         <Container>
             <Title>PORTFOLIO</Title>
@@ -10,10 +10,10 @@ export default function NavBar() {
                     <Link smooth to="/" className="anchor1"/>
                 </li>
                 <li>
-                    <Link smooth to="/about" className="anchor3"/>
+                    <Link smooth to="/about" className="anchor2"/>
                 </li>
                 <li>
-                    <Link smooth to="/projects" className="anchor2"/>
+                    <Link smooth to="/projects" className="anchor3"/>
                 </li>
             </AnchorList>
         </Container>

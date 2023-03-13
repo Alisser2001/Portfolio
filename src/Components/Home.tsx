@@ -1,11 +1,10 @@
-import LastName from './LastName';
-import Name from './Name';
+import {LastName} from './LastName';
+import {Name} from './Name';
 import {HomeStyle} from '../Styles/Home';
-import Title from './Title';
-import NavBar from './NavBar';
+import {Title} from './Title';
 
 
-export default function Home() {
+export const Home: React.FC = ({}) => {
     return (
             <HomeStyle id="home">
                 <Title />
