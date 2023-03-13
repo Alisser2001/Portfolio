@@ -1,4 +1,4 @@
-import React from "react";
+import {HashLink as Link} from "react-router-hash-link";
 import { Container, Title, AnchorList } from "../Styles/NavBar";
 
 export default function NavBar() {
@@ -7,16 +7,13 @@ export default function NavBar() {
             <Title>PORTFOLIO</Title>
             <AnchorList>
                 <li>
-                    <a href=" " className="anchor1">
-                    </a>
+                    <Link smooth to="/home" className="anchor1"/>
                 </li>
                 <li>
-                    <a href=" " className="anchor2">
-                    </a>
+                    <Link smooth to="/projects" className="anchor2"/>
                 </li>
                 <li>
-                    <a href=" " className="anchor3">
-                    </a>
+                    <Link smooth to="/about" className="anchor3"/>
                 </li>
             </AnchorList>
         </Container>

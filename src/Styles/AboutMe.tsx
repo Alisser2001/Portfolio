@@ -8,7 +8,6 @@ export const Container = styled.div`
     height: 100vh;
     max-height: 100vh;
     align-items: center;
-    top: 100vh;
     border-bottom: rgb(252,204,4) 5px solid;
     position: absolute;
     box-sizing: border-box;

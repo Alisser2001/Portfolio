@@ -7,8 +7,8 @@ export const AppStyle = styled.div`
     box-sizing:border-box;
     font-family: 'Open Sans', sans-serif; 
     background-color: #161616;
-    height: 300vh;
-    max-height: 300vh;
+    height: 100vh;
+    max-height: 100vh;
     overflow-x: hidden;
 
     ::-webkit-scrollbar {
