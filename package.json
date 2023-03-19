@@ -12,7 +12,6 @@
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.9.0",
-    "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
     "redux": "^4.2.1",
     "redux-devtools-extension": "^2.13.9",
@@ -21,9 +20,7 @@
     "tsconfig.json": "^1.0.11"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "tsc",
-    "tsc": "tsc ",
+    "start": "tsc && react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -47,7 +44,6 @@
   },
   "devDependencies": {
     "@types/node": "^18.14.6",
-    "@types/react-router-hash-link": "^2.4.5",
     "@types/styled-components": "^5.1.26",
     "copyfiles": "^2.4.1",
     "nodemon": "^2.0.20",

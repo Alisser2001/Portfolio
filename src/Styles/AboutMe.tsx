@@ -42,17 +42,23 @@ export const About = styled.p`
     font-family: 'Open Sans', sans-serif; 
     text-align: center;
     margin-top: 0;
+    margin-bottom: 0;
     color: white;
     font-size: 1.6vw;
     @media(max-width: 900px){
         border-left: none;
-        padding: 2vh 5vw;
+        padding: 0 5vw;
+        margin-bottom: 0;
         font-size: 3vw;
         text-align: center;
         width: 90vw;
         max-width: 90vw;
         height: 10vh;
         max-height: 10vh;
+    }
+    @media(max-width: 600px){
+        font-size: 3.5vw;
+        margin-bottom: 0;
     }
 `
 
@@ -65,7 +71,6 @@ export const Info = styled.div`
     padding: 0px 0vw;
     flex-direction: column;
     border-left: rgb(252,204,4) 5px solid;
-    border-right: rgb(252,204,4) 5px solid;
     box-sizing: border-box;
     @media(max-width: 900px){
         width: 100vw;
@@ -86,13 +91,14 @@ export const Buttons = styled.ul`
     width: 50vw;
     max-width: 50vw;
     padding: 0 5.5vw;
-    height: 20vh;
-    max-height: 20vh;
+    height: 40vh;
+    max-height: 40vh;
     align-content: center;
     justify-content: center;
     text-align: center;
     margin-top: 0vh;
-    p:nth-child(2n){
+    margin-bottom: 0;
+    p:nth-child(3n-1){
         border-top-left-radius: 5vw;
         border-bottom-left-radius: 5vw;
         border-top-right-radius: 5vw;
@@ -117,5 +123,14 @@ export const Tecnologies = styled(Buttons)`
         padding: 5px;
         margin: 0.5vh 1vw;
         border: rgb(252,204,4) 5px solid;
+    }
+    @media (max-width: 900px){
+        p{
+            width: 15vw;
+            max-width: 15vw;
+            height: 2vh;
+            max-height: 2vh;
+            font-size: 3vw;
+        }
     }
 `

@@ -15,20 +15,19 @@ export const Container = styled.div`
 export const Title = styled.h1`
     all: unset;
     display: flex;
+    justify-content: center;
     align-items: center;
     font-size: 8vw;
     height: 25vh;
-    padding: 0px 300px 0px 50px;
+    padding: 0px;
     color: white;
-    width: 30%;
+    width: 60vw;
     font-weight: 600;
     @media(max-width: 900px){
-        font-size: 5vw;
-        padding: 0px 50px;
+        font-size: 8vw;
     }
     @media(max-width: 600px){
-        font-size: 7vw;
-        padding: 0px 30px;
+        font-size: 9vw;
     }
 `
 
@@ -36,7 +35,7 @@ export const Options = styled.ul`
     all: unset;
     display: flex;
     flex-direction: row;
-    width:70%;
+    width: 40vw;
     height: 25vh;
     justify-content: center;
     margin: 0;
@@ -61,8 +60,10 @@ export const OptionsList = styled(Options)`
             display: none;
         }
         li:nth-child(2){
-            width: 66%;
-            max-width: 66%;
+            width: 40vw;
+            max-width: 40vw;
+            display: flex;
+            justify-content: center;
         }
     }
 `
@@ -78,6 +79,7 @@ export const AnchorList = styled(OptionsList)`
     }
     @media(max-width: 900px){
         .anchor2{
+            width: 40vw;
             background-size: 25vw 15vh;
             padding-left: 10vw;
         }
