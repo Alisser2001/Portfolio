@@ -56,16 +56,15 @@ exports.OptionsList = (0, styled_components_1.default)(exports.Options) `
         justify-content: center;
         margin: 0px;
         border-left: rgb(252,204,4) 5px solid;
-        box-sizing: border-box;
     }
     li:nth-child(3){
         border-right: rgb(252,204,4) 5px solid;
     }
     @media(max-width: 900px){
-        li:nth-child(1), li:nth-child(2){
+        li:nth-child(1), li:nth-child(3){
             display: none;
         }
-        li:nth-child(3){
+        li:nth-child(2){
             width: 66%;
             max-width: 66%;
         }
@@ -82,18 +81,19 @@ exports.AnchorList = (0, styled_components_1.default)(exports.OptionsList) `
         background-position: center;
     }
     @media(max-width: 900px){
-        .anchor3{
-            background-size: 20vw 15vh;
+        .anchor2{
+            background-size: 25vw 15vh;
+            padding-left: 10vw;
         }
     }
     .anchor1 {
         background-image: url("https://cdn-icons-png.flaticon.com/512/9980/9980489.png");
     }
     .anchor2 {
-        background-image: url("https://cdn-icons-png.flaticon.com/512/9980/9980435.png");
+        background-image: url("https://cdn-icons-png.flaticon.com/512/9980/9980463.png");
     }
     .anchor3 {
-        background-image: url("https://cdn-icons-png.flaticon.com/512/9980/9980463.png");
+        background-image: url("https://cdn-icons-png.flaticon.com/512/9980/9980435.png");
     }
 `;
 //# sourceMappingURL=NavBar.js.map

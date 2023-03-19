@@ -11,6 +11,9 @@
 # production
 /build
 
+#tsc compiled
+/dist
+
 # misc
 .DS_Store
 .env.local
