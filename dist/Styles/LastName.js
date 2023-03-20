@@ -31,14 +31,14 @@ exports.LastNameContainer = (0, styled_components_1.default)(exports.Container) 
     }
     @media(max-width: 900px){
         h1{
-            font-size: 5vw;
+            font-size: 8vw;
             padding: 0px 50px;
         }
     }
     @media(max-width: 600px){
         h1{
-            font-size: 7vw;
-            padding: 0px 50px;
+            font-size: 9vw;
+            padding: 0px 25px;
         }
     }
 `;
