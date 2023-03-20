@@ -20,27 +20,26 @@ exports.Container = styled_components_1.default.div `
 exports.Title = styled_components_1.default.h1 `
     all: unset;
     display: flex;
+    justify-content: center;
     align-items: center;
     font-size: 8vw;
     height: 25vh;
-    padding: 0px 300px 0px 50px;
+    padding: 0px;
     color: white;
-    width: 30%;
+    width: 60vw;
     font-weight: 600;
     @media(max-width: 900px){
-        font-size: 5vw;
-        padding: 0px 50px;
+        font-size: 8vw;
     }
     @media(max-width: 600px){
-        font-size: 7vw;
-        padding: 0px 30px;
+        font-size: 9vw;
     }
 `;
 exports.Options = styled_components_1.default.ul `
     all: unset;
     display: flex;
     flex-direction: row;
-    width:70%;
+    width: 40vw;
     height: 25vh;
     justify-content: center;
     margin: 0;
@@ -56,17 +55,14 @@ exports.OptionsList = (0, styled_components_1.default)(exports.Options) `
         justify-content: center;
         margin: 0px;
         border-left: rgb(252,204,4) 5px solid;
-    }
-    li:nth-child(3){
-        border-right: rgb(252,204,4) 5px solid;
+        box-sizing: border-box;
     }
     @media(max-width: 900px){
-        li:nth-child(1), li:nth-child(3){
-            display: none;
-        }
-        li:nth-child(2){
-            width: 66%;
-            max-width: 66%;
+        li{
+            width: 40vw;
+            max-width: 40vw;
+            display: flex;
+            justify-content: center;
         }
     }
 `;
@@ -81,7 +77,8 @@ exports.AnchorList = (0, styled_components_1.default)(exports.OptionsList) `
         background-position: center;
     }
     @media(max-width: 900px){
-        .anchor2{
+        .anchor1,.anchor2,.anchor3{
+            width: 40vw;
             background-size: 25vw 15vh;
             padding-left: 10vw;
         }

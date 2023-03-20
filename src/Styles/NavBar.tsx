@@ -51,15 +51,10 @@ export const OptionsList = styled(Options)`
         justify-content: center;
         margin: 0px;
         border-left: rgb(252,204,4) 5px solid;
-    }
-    li:nth-child(3){
-        border-right: rgb(252,204,4) 5px solid;
+        box-sizing: border-box;
     }
     @media(max-width: 900px){
-        li:nth-child(1), li:nth-child(3){
-            display: none;
-        }
-        li:nth-child(2){
+        li{
             width: 40vw;
             max-width: 40vw;
             display: flex;
@@ -78,7 +73,7 @@ export const AnchorList = styled(OptionsList)`
         background-position: center;
     }
     @media(max-width: 900px){
-        .anchor2{
+        .anchor1,.anchor2,.anchor3{
             width: 40vw;
             background-size: 25vw 15vh;
             padding-left: 10vw;
