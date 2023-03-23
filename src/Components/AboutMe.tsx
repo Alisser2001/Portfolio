@@ -4,7 +4,7 @@ import { About, Container, Img, Info, Tecnologies } from "../Styles/AboutMe";
 export const AboutMe: React.FC = ({ }) => {
     return (
         <Container id="about">
-            <Img src="https://avatars.githubusercontent.com/u/105648476?s=400&u=fff12fd4784c9959f6054c37e3424ef01448b29d&v=4" />
+            <Img src="/img/perfil.png" />
             <Info>
                 <About>
                     Mi nombre es Estiven Muñoz, Full Stack Developer con experiencia trabajando
