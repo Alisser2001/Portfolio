@@ -90,14 +90,63 @@ export const ProjectsSection = styled.div`
 `
 
 export const InfoProjects = styled(ProjectsSection)`
-    img{
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 75vw;
         max-width: 75vw;
         height: 75vh;
         max-height: 75vh;
     }
+    div>img{
+        width: 75vw;
+        max-width: 75vw;
+        height: 75vh;
+        max-height: 75vh;
+    }
+    /*div>div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        z-index: 1000;
+        background-color: #161616;
+        opacity: 75%;
+        width: 75vw;
+        max-width: 75vw;
+        height: 75vh;
+        max-height: 75vh;
+    }
+    div>div>h3{
+        padding-top: 10vh;
+        width: 45vw;
+        max-width: 45vw;
+        height: 5vh;
+        max-height: 5vh;
+        color: white;
+    }
+    div>div>p{
+        width: 45vw;
+        max-width: 45vw;
+        height: 75vh;
+        max-height: 75vh;
+        color: white;
+    }*/
     @media(max-width: 900px){
-        img{
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            max-width: 100vw;
+            height: 75vh;
+            max-height: 75vh;
+        }
+        div>img{
             width: 100vw;
             max-width: 100vw;
             height: 45vh;
