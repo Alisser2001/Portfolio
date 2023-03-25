@@ -16,6 +16,9 @@ export const Container = styled.div`
     @media(max-width: 900px){
         flex-direction: column;
     }
+    @media(max-width: 600px){
+        padding-top: 5vh;
+    }
 `
 export const Img = styled.img`
     width: 30vw;

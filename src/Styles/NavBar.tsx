@@ -68,24 +68,40 @@ export const AnchorList = styled(OptionsList)`
         display: flex;
         height: 25vh;
         max-width: 100%;
-        background-size: 10vw 20vh;
-        background-repeat: no-repeat;
-        background-position: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+    }
+    a>img{
+        width: 10vw;
+        max-width: 10vw;
+        height: 20vh;
+        max-height: 20vh;
+    }
+    a>p{
+        width: 13vw;
+        max-width: 13vw;
+        height: 2vh;
+        max-height: 2vh;
+        color: white;
+        margin: 1vh 0 0 0;
+        font-size: 4vw;
+    }
+    a>img:hover{
+        transform: scale(0.9);
     }
     @media(max-width: 900px){
-        .anchor1,.anchor2,.anchor3{
+        a{
             width: 40vw;
-            background-size: 25vw 15vh;
-            padding-left: 10vw;
+            justify-content: center;
         }
-    }
-    .anchor1 {
-        background-image: url("https://cdn-icons-png.flaticon.com/512/9980/9980489.png");
-    }
-    .anchor2 {
-        background-image: url("https://cdn-icons-png.flaticon.com/512/9980/9980463.png");
-    }
-    .anchor3 {
-        background-image: url("https://cdn-icons-png.flaticon.com/512/9980/9980435.png");
+        a>img{
+            width: 25vw;
+            max-width: 25vw;
+            height: 15vh;
+            max-height: 15vh;
+        }
     }
 `

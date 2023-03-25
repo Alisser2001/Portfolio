@@ -72,25 +72,25 @@ exports.AnchorList = (0, styled_components_1.default)(exports.OptionsList) `
         display: flex;
         height: 25vh;
         max-width: 100%;
-        background-size: 10vw 20vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /*background-size: 10vw 20vh;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: center;*/
+    }
+    a>img{
+        width: 10vw;
+        max-width: 10vw;
+        height: 20vh;
+        max-height: 20vh;
     }
     @media(max-width: 900px){
-        .anchor1,.anchor2,.anchor3{
+        a{
             width: 40vw;
-            background-size: 25vw 15vh;
+            //background-size: 25vw 15vh;
             padding-left: 10vw;
         }
-    }
-    .anchor1 {
-        background-image: url("https://cdn-icons-png.flaticon.com/512/9980/9980489.png");
-    }
-    .anchor2 {
-        background-image: url("https://cdn-icons-png.flaticon.com/512/9980/9980463.png");
-    }
-    .anchor3 {
-        background-image: url("https://cdn-icons-png.flaticon.com/512/9980/9980435.png");
     }
 `;
 //# sourceMappingURL=NavBar.js.map
