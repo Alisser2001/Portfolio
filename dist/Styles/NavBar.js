@@ -75,9 +75,8 @@ exports.AnchorList = (0, styled_components_1.default)(exports.OptionsList) `
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /*background-size: 10vw 20vh;
-        background-repeat: no-repeat;
-        background-position: center;*/
+        text-align: center;
+        text-decoration: none;
     }
     a>img{
         width: 10vw;
@@ -85,11 +84,28 @@ exports.AnchorList = (0, styled_components_1.default)(exports.OptionsList) `
         height: 20vh;
         max-height: 20vh;
     }
+    a>p{
+        width: 13vw;
+        max-width: 13vw;
+        height: 2vh;
+        max-height: 2vh;
+        color: white;
+        margin: 1vh 0 0 0;
+        font-size: 4vw;
+    }
+    a>img:hover{
+        transform: scale(0.9);
+    }
     @media(max-width: 900px){
         a{
             width: 40vw;
-            //background-size: 25vw 15vh;
-            padding-left: 10vw;
+            justify-content: center;
+        }
+        a>img{
+            width: 25vw;
+            max-width: 25vw;
+            height: 15vh;
+            max-height: 15vh;
         }
     }
 `;

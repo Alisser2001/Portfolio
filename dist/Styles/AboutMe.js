@@ -21,6 +21,9 @@ exports.Container = styled_components_1.default.div `
     @media(max-width: 900px){
         flex-direction: column;
     }
+    @media(max-width: 600px){
+        padding-top: 5vh;
+    }
 `;
 exports.Img = styled_components_1.default.img `
     width: 30vw;

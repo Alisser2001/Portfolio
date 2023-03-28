@@ -54,6 +54,8 @@ exports.TitleContainer = (0, styled_components_1.default)(exports.Container) `
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
+        text-decoration: none;
         /*background-image: url("https://cdn-icons-png.flaticon.com/512/9946/9946475.png");
         background-size: 10vw 20vh;
         background-repeat: no-repeat;
@@ -64,6 +66,18 @@ exports.TitleContainer = (0, styled_components_1.default)(exports.Container) `
         max-width: 10vw;
         height: 20vh;
         max-height: 20vh;
+    }
+    a>p{
+        width: 13vw;
+        max-width: 13vw;
+        height: 2vh;
+        max-height: 2vh;
+        color: white;
+        margin: 1vh 0 0 0;
+        font-size: 4vw;
+    }
+    a>img:hover{
+        transform: scale(0.9);
     }
     @media(max-width: 900px){
         a{

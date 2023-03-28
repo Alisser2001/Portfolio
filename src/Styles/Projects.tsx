@@ -13,6 +13,13 @@ export const GlobalStyles = styled.div`
     align-items: center;
     @media(max-width: 900px){
         flex-direction: column;
+        .buttons{
+            display: flex;
+            width: 100vw;
+            max-width: 100vw;
+            flex-direction: row;
+            justify-content: space-around;
+        }
     }
 `
 export const Container = styled(GlobalStyles)`
@@ -48,8 +55,7 @@ export const ProjectsSection = styled.div`
     margin: 0;
     display: flex;
     flex-direction: row;
-    overflow-y: hidden;
-    overflow-x: scroll;
+    overflow: hidden;
     box-sizing: border-box;
     @media(max-width: 900px){
         width: 100vw;
@@ -58,39 +64,12 @@ export const ProjectsSection = styled.div`
         max-height: 65vh;
         margin: 5vh 0;
         flex-direction: column;
-        overflow-y: scroll;
-        overflow-x: hidden;
-    }
-    ::-webkit-scrollbar {
-        background-color: transparent;
-    }
-    
-    ::-webkit-scrollbar:vertical {
-        width: 1vw;
-    }
-    
-    ::-webkit-scrollbar-track {
-        background-color: #161616;
-    }
-    
-    ::-webkit-scrollbar-button {
-        display: none;
-    }
-    
-    ::-webkit-scrollbar:horizontal {
-        height: 10px;
-    }
-    
-    ::-webkit-scrollbar-thumb {
-        background-color: rgb(252, 204, 4);
-        border-radius: 20px;
-        border: 2px solid rgb(252, 204, 4);
-        margin: 1vw;
     }
 `
 
 export const InfoProjects = styled(ProjectsSection)`
     div{
+        all: unset;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -105,36 +84,43 @@ export const InfoProjects = styled(ProjectsSection)`
         max-width: 75vw;
         height: 75vh;
         max-height: 75vh;
+        opacity: 1;
+        display: block;
     }
-    /*div>div{
+    div>.containerInfo{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        text-align: center;
-        z-index: 1000;
-        background-color: #161616;
-        opacity: 75%;
         width: 75vw;
         max-width: 75vw;
         height: 75vh;
         max-height: 75vh;
+        text-align: center;
+        position: absolute;
+        opacity: 0;
     }
-    div>div>h3{
-        padding-top: 10vh;
+    div>.containerInfo>p{
+        display: flex;
+        width: 45vw;
+        max-width: 45vw;
+        height: 25vh;
+        max-height: 25vh;
+        color: white;
+    }
+    div>.containerInfo>h3{
         width: 45vw;
         max-width: 45vw;
         height: 5vh;
         max-height: 5vh;
         color: white;
     }
-    div>div>p{
-        width: 45vw;
-        max-width: 45vw;
-        height: 75vh;
-        max-height: 75vh;
-        color: white;
-    }*/
+    div:hover img{
+        opacity: 0.4;
+    }
+    div:hover .containerInfo{
+        opacity: 1;
+    }
     @media(max-width: 900px){
         div{
             display: flex;
@@ -147,10 +133,46 @@ export const InfoProjects = styled(ProjectsSection)`
             max-height: 75vh;
         }
         div>img{
+            display: flex;
             width: 100vw;
             max-width: 100vw;
             height: 45vh;
             max-height: 45vh;
+        }
+        div>.containerInfo{
+            top: 0;
+            width: 100vw;
+            max-width: 100vw;
+            height: 45vh;
+            max-height: 45vh;
+            font-size: 2.5vw;
+        }
+        div>.containerInfo>p{
+            display: flex;
+            width: 80vw;
+            max-width: 80vw;
+            height: 15vh;
+            max-height: 15vh;
+            color: white;
+        }
+        div>.containerInfo>h3{
+            width: 80vw;
+            max-width: 80vw;
+            height: 5vh;
+            max-height: 5vh;
+            color: white;
+        }
+        div:hover img{
+            opacity: 1;
+        }
+        div:hover .containerInfo{
+            opacity: 0;
+        }
+        div:active img{
+            opacity: 0.4;
+        }
+        div:active .containerInfo{
+            opacity: 1;
         }
     }
 `
