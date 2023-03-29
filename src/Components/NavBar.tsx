@@ -11,12 +11,12 @@ export const NavBar: React.FC = ({ }) => {
         <Container>
             <Title>PORTAFOLIO</Title>
             <AnchorList>
-                {window.innerWidth > 900 && <li>
+                {window.screen.width > 900 && <li>
                     <Link smooth to="/" onClick={() => viewOnChange(1)}>
                         <img src="/icons/home-page.png" />
                     </Link>
                 </li>}
-                {window.innerWidth > 900 ?
+                {window.screen.width > 900 ?
                     <li>
                         <Link smooth to="/about" onClick={() => viewOnChange(2)}>
                             <img src="/icons/hacker.png" />
@@ -43,7 +43,7 @@ export const NavBar: React.FC = ({ }) => {
                                 </Link>
                             </li>
                 }
-                {window.innerWidth > 900 && <li>
+                {window.screen.width > 900 && <li>
                     <Link smooth to="/projects" onClick={() => viewOnChange(3)}>
                         <img src="/icons/innovacion.png" />
                     </Link>

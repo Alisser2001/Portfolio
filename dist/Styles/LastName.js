@@ -15,6 +15,15 @@ exports.Container = styled_components_1.default.div `
     position: absolute;
     top: 75vh;
     box-sizing: border-box;
+    animation: slideLastName 1.5s backwards;
+    @keyframes slideLastName{
+    from{
+        top: 100vh;
+    }
+    to{
+        top: 75vh;
+    }
+}
 `;
 exports.LastNameContainer = (0, styled_components_1.default)(exports.Container) `
     h1{
@@ -37,7 +46,7 @@ exports.LastNameContainer = (0, styled_components_1.default)(exports.Container) 
     }
     @media(max-width: 600px){
         h1{
-            font-size: 9vw;
+            font-size: 8vw;
             padding: 0px 25px;
         }
     }

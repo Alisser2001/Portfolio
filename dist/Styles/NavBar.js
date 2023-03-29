@@ -32,7 +32,7 @@ exports.Title = styled_components_1.default.h1 `
         font-size: 8vw;
     }
     @media(max-width: 600px){
-        font-size: 9vw;
+        font-size: 8vw;
     }
 `;
 exports.Options = styled_components_1.default.ul `

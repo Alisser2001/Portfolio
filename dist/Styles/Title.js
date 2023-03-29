@@ -15,6 +15,15 @@ exports.Container = styled_components_1.default.div `
     position: absolute;
     top: 25vh;
     box-sizing: border-box;
+    animation: slideTitle 0.5s backwards;
+    @keyframes slideTitle{
+    from{
+        top: 100vh;
+    }
+    to{
+        top: 25vh;
+    }
+}
 `;
 exports.TitleContainer = (0, styled_components_1.default)(exports.Container) `
     h1{
@@ -39,7 +48,7 @@ exports.TitleContainer = (0, styled_components_1.default)(exports.Container) `
     }
     @media(max-width: 600px){
         h1{
-            font-size: 9vw;
+            font-size: 8vw;
             padding: 0px 50px;
             width: 60vw;
             max-width: 60vw;
