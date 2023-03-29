@@ -7,17 +7,16 @@ export const NavBar: React.FC = ({ }) => {
     const viewOnChange = (view: number) => {
         setView(view);
     };
-    const width = window.innerWidth;
     return (
         <Container>
             <Title>PORTAFOLIO</Title>
             <AnchorList>
-                {width > 900 && <li>
+                {window.innerWidth > 900 && <li>
                     <Link smooth to="/" onClick={() => viewOnChange(1)}>
                         <img src="/icons/home-page.png" />
                     </Link>
                 </li>}
-                {width > 900 ?
+                {window.innerWidth > 900 ?
                     <li>
                         <Link smooth to="/about" onClick={() => viewOnChange(2)}>
                             <img src="/icons/hacker.png" />
@@ -44,7 +43,7 @@ export const NavBar: React.FC = ({ }) => {
                                 </Link>
                             </li>
                 }
-                {width > 900 && <li>
+                {window.innerWidth > 900 && <li>
                     <Link smooth to="/projects" onClick={() => viewOnChange(3)}>
                         <img src="/icons/innovacion.png" />
                     </Link>

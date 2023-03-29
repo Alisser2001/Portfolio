@@ -21,7 +21,7 @@ export const Projects: React.FC = ({ }) => {
     }
     return (
         <Container>
-            {width > 900 && <button className="button1" onClick={() => changeVisible("less")}>V</button>}
+            {window.innerWidth > 900 && <button className="button1" onClick={() => changeVisible("less")}>V</button>}
             <InfoProjects id="scrollProjects">
                 {visible === 1 ? <div>
                     <img src="/img/DevsLearning.png" />
@@ -49,8 +49,8 @@ export const Projects: React.FC = ({ }) => {
                         </div>
                 }
             </InfoProjects>
-            {width > 900 && <button className="button2" onClick={() => changeVisible("up")}>V</button>}
-            {width <= 900 && 
+            {window.innerWidth > 900 && <button className="button2" onClick={() => changeVisible("up")}>V</button>}
+            {window.innerWidth <= 900 && 
             <div className="buttons">
                 <button className="button1" onClick={() => changeVisible("less")}>V</button>
                 <button className="button2" onClick={() => changeVisible("up")}>V</button>
