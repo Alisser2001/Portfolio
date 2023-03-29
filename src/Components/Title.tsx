@@ -3,6 +3,7 @@ import { HashLink as Link } from "react-router-hash-link";
 import { TitleContainer } from "../Styles/Title";
 
 export const Title: React.FC = ({}) => {
+    console.log(window.innerWidth);
     return(
         <TitleContainer>
             <h1>PROFESIONAL</h1>
