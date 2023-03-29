@@ -2,8 +2,8 @@ import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import { TitleContainer } from "../Styles/Title";
 
-const width:number = window.innerWidth;
 export const Title: React.FC = ({}) => {
+    const width:number = window.innerWidth;
     return(
         <TitleContainer>
             <h1>PROFESIONAL</h1>
