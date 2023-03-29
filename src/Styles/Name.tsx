@@ -10,6 +10,15 @@ export const Container = styled.div`
     position: absolute;
     top: 50vh;
     box-sizing: border-box;
+    animation: slideName 1s backwards;
+    @keyframes slideName{
+    from{
+        top: 100vh;
+    }
+    to{
+        top: 50vh;
+    }
+}
 `
 export const NameContainer = styled(Container)`
     h1{
@@ -32,7 +41,7 @@ export const NameContainer = styled(Container)`
     }
     @media(max-width: 600px){
         h1{
-            font-size: 9vw;
+            font-size: 8vw;
             padding: 0px 50px;
         }
     }

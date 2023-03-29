@@ -13,6 +13,15 @@ export const Container = styled.div`
     @media(max-width: 900px){
         flex-direction: column;
     }
+    animation: slideContact 0.5s backwards;
+    @keyframes slideContact{
+    from{
+        top: 100vh;
+    }
+    to{
+        top: 25vh;
+    }
+}
 `
 
 export const NetworkSection = styled.div`

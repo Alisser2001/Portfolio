@@ -12,13 +12,21 @@ export const Container = styled.div`
     border-bottom: rgb(252,204,4) 5px solid;
     position: absolute;
     box-sizing: border-box;
-
+    animation: slideAbout 0.5s backwards;
     @media(max-width: 900px){
         flex-direction: column;
     }
     @media(max-width: 600px){
         padding-top: 5vh;
     }
+    @keyframes slideAbout{
+    from{
+        top: 100vh;
+    }
+    to{
+        top: 25vh;
+    }
+}
 `
 export const Img = styled.img`
     width: 30vw;
@@ -126,6 +134,29 @@ export const Tecnologies = styled(Buttons)`
         padding: 5px;
         margin: 0.5vh 1vw;
         border: rgb(252,204,4) 5px solid;
+    }
+    p:nth-child(3n-1){
+        animation: slideTecnologies 7s infinite;
+    }
+    p:nth-child(2n){
+        animation: slideTecnologies 4s infinite;
+    }
+    p:nth-child(2n-1){
+        animation: slideTecnologies 6s infinite;
+    }
+    p:nth-child(3n){
+        animation: slideTecnologies 5s infinite;
+    }
+    @keyframes slideTecnologies{
+        0%{
+            transform: scale(1);
+        }
+        50%{
+            transform: scale(1.1);    
+        }
+        100%{
+            transform: scale(1);
+        }
     }
     @media (max-width: 900px){
         p{

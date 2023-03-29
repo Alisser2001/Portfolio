@@ -34,7 +34,7 @@ export const Contact: React.FC = ({ }) => {
     return (
         <Container>
             <ContactInfo>
-                <h1>Contactame</h1>
+                <h1>Contáctame</h1>
                 <form onSubmit={handleSubmit(submitNewMessage)}>
                     <div>
                         <label>Nombre</label>
@@ -57,19 +57,19 @@ export const Contact: React.FC = ({ }) => {
                 </ul>
             </ContactInfo>
             <NetworkInfo>
-                <a href="https://github.com/Alisser2001">
+                <a href="https://github.com/Alisser2001" target="_blank">
                     <img src="/icons/github.png" />
                     {width>900 && <p>GitHub</p>}
                 </a>
-                <a href="https://www.linkedin.com/in/alisser2001">
+                <a href="https://www.linkedin.com/in/alisser2001" target="_blank">
                     <img src="/icons/linkedin.png"/>
                     {width>900 && <p>LinkedIn</p>}
                 </a>
-                <a href="https://twitter.com/JuanEstivenCar2">
+                <a href="https://twitter.com/JuanEstivenCar2" target="_blank">
                     <img src="/icons/twitter.png" />
                     {width>900 && <p>Twitter</p>}
                 </a>
-                <a href="https://www.instagram.com/alisser2001">
+                <a href="https://www.instagram.com/alisser2001" target="_blank">
                     <img src="/icons/instagram.png" />
                     {width>900 && <p>Instagram</p>}
                 </a>

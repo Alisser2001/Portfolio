@@ -27,7 +27,7 @@ export const Title = styled.h1`
         font-size: 8vw;
     }
     @media(max-width: 600px){
-        font-size: 9vw;
+        font-size: 8vw;
     }
 `
 

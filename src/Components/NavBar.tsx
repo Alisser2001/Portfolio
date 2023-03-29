@@ -10,7 +10,7 @@ export const NavBar: React.FC = ({ }) => {
     const width = window.innerWidth;
     return (
         <Container>
-            <Title>PORTFOLIO</Title>
+            <Title>PORTAFOLIO</Title>
             <AnchorList>
                 {width > 900 && <li>
                     <Link smooth to="/" onClick={() => viewOnChange(1)}>
