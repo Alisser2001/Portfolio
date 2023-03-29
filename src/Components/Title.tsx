@@ -1,12 +1,9 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import { TitleContainer } from "../Styles/Title";
 
+const width:number = window.innerWidth;
 export const Title: React.FC = ({}) => {
-    let width:number = window.innerWidth;
-    useEffect(()=>{
-        width = window.innerWidth;
-    })
     return(
         <TitleContainer>
             <h1>PROFESIONAL</h1>
