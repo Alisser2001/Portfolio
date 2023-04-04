@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" href="/hacker.png" />
-        <title>Portfolio Alisser</title>
+        <title>AliDev</title>
       </head>
       <body>
         <NavBar />
