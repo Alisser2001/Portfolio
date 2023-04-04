@@ -1,0 +1,271 @@
+.container {
+    position: absolute;
+    top: 25vh;
+    height: 75vh;
+    max-height: 75vh;
+    width: 100vw;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    animation: slideProjects 0.5s backwards;
+}
+
+.container>button {
+    width: 10vw;
+    max-width: 10vw;
+    height: 20vh;
+    max-height: 20vh;
+    margin: 0 2vw;
+    font-size: 5vw;
+    border-radius: 50%;
+    background-color: transparent;
+    color: rgb(252, 204, 4);
+    border: none;
+    cursor: pointer;
+}
+
+.container>button:hover {
+    transform: scale(1.5);
+}
+
+.button1 {
+    rotate: 90deg;
+}
+
+.button2 {
+    rotate: 270deg;
+}
+
+.buttons {
+    display: none;
+}
+
+.infoProjects {
+    height: 75vh;
+    max-height: 75vh;
+    width: 76vw;
+    max-width: 76vw;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.project {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 76vw;
+    max-width: 76vw;
+    height: 75vh;
+    max-height: 75vh;
+}
+
+.projectImg {
+    all: unset;
+    width: 72vw;
+    max-width: 72vw;
+    height: 75vh;
+    max-height: 75vh;
+    opacity: 1;
+    display: block;
+}
+
+.containerInfo {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75vw;
+    max-width: 75vw;
+    height: 75vh;
+    max-height: 75vh;
+    text-align: center;
+    position: absolute;
+    opacity: 0;
+}
+
+.projectTitle {
+    width: 45vw;
+    max-width: 45vw;
+    height: auto;
+    max-height: auto;
+    color: white;
+    margin: 0;
+    font-size: 2vw;
+}
+
+.projectDescription {
+    display: flex;
+    width: 65vw;
+    max-width: 65vw;
+    height: 25vh;
+    max-height: 25vh;
+    color: white;
+    margin-top: 5vh;
+    font-size: 1.3vw;
+}
+
+.projectLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    max-width: 10vw;
+    height: 5vh;
+    max-height: 5vh;
+    text-decoration: none;
+    font-size: 1.5vw;
+    margin: 0;
+    border: rgb(252, 204, 4) 3px solid;
+    border-top-left-radius: 5vw;
+    border-bottom-left-radius: 5vw;
+    border-top-right-radius: 5vw;
+    border-bottom-right-radius: 5vw;
+    color: white;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+}
+
+.infoProjects:hover .projectImg {
+    opacity: 0.2;
+}
+
+.infoProjects:hover .containerInfo {
+    opacity: 1;
+}
+
+@media(max-width: 900px) {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .infoProjects {
+        width: 100vw;
+        max-width: 100vw;
+        height: 45vh;
+        max-height: 45vh;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .project {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        max-width: 100vw;
+        height: 45vh;
+        max-height: 45vh;
+    }
+
+    .projectImg {
+        display: flex;
+        width: 100vw;
+        max-width: 100vw;
+        height: 40vh;
+        max-height: 40vh;
+    }
+
+    .containerInfo {
+        top: 10vh;
+        width: 100vw;
+        max-width: 100vw;
+        height: 45vh;
+        max-height: 45vh;
+        font-size: 2.5vw;
+    }
+
+    .projectTitle {
+        width: 80vw;
+        max-width: 80vw;
+        height: 5vh;
+        max-height: 5vh;
+        color: white;
+        font-size: 4vw;
+    }
+
+    .projectDescription {
+        display: flex;
+        width: 80vw;
+        max-width: 80vw;
+        height: 15vh;
+        max-height: 15vh;
+        color: white;
+        margin-top: 1vh;
+        font-size: 2vw;
+    }
+
+    .projectLink {
+        width: 80vw;
+        max-width: 80vw;
+        height: 5vh;
+        max-height: 5vh;
+        font-size: 3vw;
+        margin-top: 5vh;
+    }
+
+    .button1,
+    .button2 {
+        display: none;
+    }
+
+    .buttons {
+        all: unset;
+        display: flex;
+        width: 100vw;
+        max-width: 100vw;
+        height: 10vh;
+        max-height: 10vh;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .buttons>button {
+        width: 10vw;
+        max-width: 10vw;
+        height: 20vh;
+        max-height: 20vh;
+        margin: 0 2vw;
+        font-size: 10vw;
+        border-radius: 50%;
+        background-color: transparent;
+        color: rgb(252, 204, 4);
+        border: none;
+        cursor: pointer;
+    }
+
+    .buttons>button:nth-child(1) {
+        rotate: 90deg;
+    }
+
+    .buttons>button:nth-child(2) {
+        rotate: 270deg;
+    }
+}
+
+@media(max-width: 600px) {
+    .projectDescription {
+        font-size: 3vw;
+    }
+}
+
+@keyframes slideProjects {
+    from {
+        top: 100vh;
+    }
+
+    to {
+        top: 25vh;
+    }
+}
