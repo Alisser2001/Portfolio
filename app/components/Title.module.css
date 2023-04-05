@@ -38,36 +38,6 @@
     font-weight: 600;
 }
 
-@media(max-width: 900px) {
-    .titleContainer1 {
-        display: none;
-    }
-
-    .titleContainer2 {
-        all: unset;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 25vh;
-        color: white;
-        box-sizing: border-box;
-        font-weight: 600;
-        font-size: 8vw;
-        padding: 0px 50px;
-        width: 60vw;
-        max-width: 60vw;
-    }
-}
-
-@media(max-width: 600px) {
-    .titleContainer {
-        font-size: 8vw;
-        padding: 0px 50px;
-        width: 60vw;
-        max-width: 60vw;
-    }
-}
-
 .link {
     width: 13vw;
     max-width: 13vw;
@@ -98,12 +68,30 @@
 }
 
 @media(max-width: 900px) {
-    .link {
-        width: 40vw;
-        max-width: 40vw;
+    .titleContainer1 {
+        display: none;
+    }
+
+    .titleContainer2 {
+        all: unset;
         display: flex;
         justify-content: center;
-        background-size: 25vw 15vh;
+        align-items: center;
+        height: 25vh;
+        color: white;
+        box-sizing: border-box;
+        font-weight: 600;
+        font-size: 8vw;
+        padding: 0px 50px;
+        width: 66.6vw;
+        max-width: 66.6vw;
+    }
+
+    .link {
+        width: 33vw;
+        max-width: 33vw;
+        display: flex;
+        justify-content: center;
         box-sizing: border-box;
     }
 
@@ -116,8 +104,9 @@
 
     .contactTitle {
         display: flex;
-        width: 13vw;
-        max-width: 13vw;
+        justify-content: center;
+        width: 33vw;
+        max-width: 33vw;
         height: 2vh;
         max-height: 2vh;
         color: white;
@@ -127,9 +116,10 @@
 }
 
 @media(max-width: 600px) {
-    .link {
-        width: 40vw;
-        max-width: 40vw;
-        box-sizing: border-box;
+    .titleContainer {
+        font-size: 8vw;
+        padding: 0px 50px;
+        width: 60vw;
+        max-width: 60vw;
     }
 }

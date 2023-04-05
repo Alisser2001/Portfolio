@@ -1,3 +1,10 @@
+@font-face {
+    font-family: ConcertOne;
+    src: url('../../fonts/ConcertOne-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -150,6 +157,7 @@
     border-top-right-radius: 5vw;
     border-bottom-right-radius: 5vw;
     font-size: 1.5vw;
+    font-family: ConcertOne;
     cursor: pointer;
 }
 
