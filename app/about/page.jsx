@@ -22,10 +22,11 @@ export default function AboutMe({ }) {
                     <p>Java</p>
                     <p>NodeJS</p>
                     <p>ReactJS</p>
+                    <p>NextJS</p>
                     <p>Express</p>
+                    <p>Redux</p>
                     <p>Sequelize</p>
                     <p>SQL</p>
-                    <p>Redux</p>
                     <p>CSS 3</p>
                     <p>Git Flow</p>
                 </ul>
