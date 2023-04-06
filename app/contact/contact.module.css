@@ -65,14 +65,17 @@
 .formName>label {
     width: 7vw;
     max-width: 7vw;
+    height: 3vh;
+    max-height: 3vh;
     color: white;
     font-size: 1.5vw;
     margin: 0px 2vw;
+    z-index: 1000;
 }
 
 .formName>input {
-    height: 5vh;
-    max-height: 5vh;
+    height: 7vh;
+    max-height: 7vh;
     width: 36vw;
     max-width: 36vw;
     margin: 0px 2vw;
@@ -95,14 +98,17 @@
 .formEmail>label {
     width: 5vw;
     max-width: 5vw;
+    height: 3vh;
+    max-height: 3vh;
     color: white;
     font-size: 1.5vw;
     margin: 0px 2vw;
+    z-index: 1000;
 }
 
 .formEmail>input {
-    height: 5vh;
-    max-height: 5vh;
+    height: 7vh;
+    max-height: 7vh;
     width: 36vw;
     max-width: 36vw;
     margin: 0px 2vw;
@@ -125,14 +131,17 @@
 .formMessage>label {
     width: 7vw;
     max-width: 7vw;
+    height: 3vh;
+    max-height: 3vh;
     color: white;
     font-size: 1.5vw;
     margin: 0px 2vw;
+    z-index: 1000;
 }
 
 .formMessage>textarea {
-    height: 25vh;
-    max-height: 25vh;
+    height: 22vh;
+    max-height: 22vh;
     width: 36vw;
     max-width: 36vw;
     margin: 0px 2vw;
