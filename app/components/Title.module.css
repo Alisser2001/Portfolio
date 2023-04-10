@@ -98,8 +98,8 @@
     .contactImg {
         width: 25vw;
         max-width: 25vw;
-        height: 16vh;
-        max-height: 16vh;
+        height: 15vh;
+        max-height: 15vh;
     }
 
     .contactTitle {
@@ -121,5 +121,13 @@
         padding: 0px 50px;
         width: 60vw;
         max-width: 60vw;
+    }
+    @media(max-width: 600px){
+        .contactImg {
+            width: 25vw;
+            max-width: 25vw;
+            height: 14vh;
+            max-height: 14vh;
+        }
     }
 }

@@ -140,3 +140,14 @@
         text-align: center;
     }
 }
+
+@media(max-width: 600px){
+    .homeImg,
+    .aboutImg,
+    .projectsImg {
+        width: 25vw;
+        max-width: 25vw;
+        height: 14vh;
+        max-height: 14vh;
+    }
+}

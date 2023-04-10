@@ -341,8 +341,8 @@
     }
 
     .link>img {
-        width: 10vw;
-        max-width: 10vw;
+        width: 11vw;
+        max-width: 11vw;
         height: 8vh;
         max-height: 8vh;
     }
@@ -370,6 +370,15 @@
 
     .link:nth-child(4) {
         border-left: none;
+    }
+}
+
+@media(max-width: 600px){
+    .link>img{
+        width: 14vw;
+        max-width: 14vw;
+        height: 8vh;
+        max-height: 8vh;
     }
 }
 
