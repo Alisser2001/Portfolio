@@ -91,7 +91,6 @@
     border-bottom-right-radius: 5vw;
     box-sizing: border-box;
     font-size: 1.2vw;
-    padding: 0 5px;
     font-family: ConcertOne;
 }
 
@@ -134,7 +133,6 @@
     border-top-right-radius: 5vw;
     border-bottom-right-radius: 5vw;
     box-sizing: border-box;
-    padding: 0 5px;
     font-family: ConcertOne;
 }
 
@@ -173,7 +171,6 @@
     border-bottom-right-radius: 1vw;
     font-size: 1.2vw;
     box-sizing: border-box;
-    padding: 5px;
     font-family: ConcertOne;
 }
 
