@@ -65,8 +65,8 @@
 .formName>label {
     width: 7vw;
     max-width: 7vw;
-    height: 3vh;
-    max-height: 3vh;
+    height: 4vh;
+    max-height: 4vh;
     color: white;
     font-size: 1.5vw;
     margin: 0px 2vw;
@@ -74,8 +74,8 @@
 }
 
 .formName>input {
-    height: 7vh;
-    max-height: 7vh;
+    height: 6vh;
+    max-height: 6vh;
     width: 36vw;
     max-width: 36vw;
     margin: 0px 2vw;
@@ -83,6 +83,9 @@
     border-bottom-left-radius: 5vw;
     border-top-right-radius: 5vw;
     border-bottom-right-radius: 5vw;
+    font-size: 1.2vw;
+    padding: 0 5px;
+    font-family: ConcertOne;
 }
 
 .formEmail {
@@ -98,24 +101,27 @@
 .formEmail>label {
     width: 5vw;
     max-width: 5vw;
-    height: 3vh;
-    max-height: 3vh;
+    height: 4vh;
+    max-height: 4vh;
     color: white;
     font-size: 1.5vw;
     margin: 0px 2vw;
-    z-index: 1000;
+    z-index: 10000000;
 }
 
 .formEmail>input {
-    height: 7vh;
-    max-height: 7vh;
+    height: 6vh;
+    max-height: 6vh;
     width: 36vw;
     max-width: 36vw;
     margin: 0px 2vw;
+    font-size: 1.2vw;
     border-top-left-radius: 5vw;
     border-bottom-left-radius: 5vw;
     border-top-right-radius: 5vw;
     border-bottom-right-radius: 5vw;
+    padding: 0 5px;
+    font-family: ConcertOne;
 }
 
 .formMessage {
@@ -131,8 +137,8 @@
 .formMessage>label {
     width: 7vw;
     max-width: 7vw;
-    height: 3vh;
-    max-height: 3vh;
+    height: 4vh;
+    max-height: 4vh;
     color: white;
     font-size: 1.5vw;
     margin: 0px 2vw;
@@ -140,8 +146,8 @@
 }
 
 .formMessage>textarea {
-    height: 22vh;
-    max-height: 22vh;
+    height: 21vh;
+    max-height: 21vh;
     width: 36vw;
     max-width: 36vw;
     margin: 0px 2vw;
@@ -149,7 +155,11 @@
     border-bottom-left-radius: 1vw;
     border-top-right-radius: 1vw;
     border-bottom-right-radius: 1vw;
+    font-size: 1.2vw;
+    padding: 0 5px;
+    font-family: ConcertOne;
 }
+
 
 .submit {
     width: 10vw;
@@ -160,7 +170,7 @@
     font-family: 'Open Sans', sans-serif;
     background-color: transparent;
     border: rgb(252, 204, 4) 5px solid;
-    color: rgb(252, 204, 4);
+    color: white;
     border-top-left-radius: 5vw;
     border-bottom-left-radius: 5vw;
     border-top-right-radius: 5vw;
@@ -171,8 +181,7 @@
 }
 
 .submit:hover {
-    color: white;
-    transform: scale(1.1);
+    font-size: 1.6vw;
 }
 
 .networkInfo {
@@ -278,12 +287,14 @@
         width: 90vw;
         max-width: 90vw;
         margin: 0px 5vw;
+        font-size: 3vw;
     }
 
     .formEmail>input {
         width: 90vw;
         max-width: 90vw;
         margin: 0px 5vw;
+        font-size: 3vw;
     }
 
     .formMessage>textarea {
@@ -292,6 +303,7 @@
         margin: 0px 5vw;
         height: 20vh;
         max-height: 20vh;
+        font-size: 3vw;
     }
 
     .formName>label {
@@ -379,6 +391,30 @@
         max-width: 14vw;
         height: 8vh;
         max-height: 8vh;
+    }
+    .formName>input{
+        height: 7vh;
+        font-size: 5vw;
+        max-height: 7vh;
+    }
+    .formEmail>input{
+        font-size: 5vw;
+        height: 7vh;
+        max-height: 7vh;
+    }
+    .formMessage>input{
+        font-size: 5vw;
+        height: 22vh;
+        max-height: 22vh;
+    }
+    .formName>label{
+        height: 3vh;
+    }
+    .formEmail>label{
+        height: 3vh;
+    }
+    .formMessage>label{
+        height: 3vh;
     }
 }
 

@@ -1,37 +1,25 @@
 'use client';
-import React from "react";
+import React, { useState } from "react";
 import styles from "./contact.module.css";
 import { useForm } from "react-hook-form";
-import emailjs from '@emailjs/browser';
+import emailJS from "../services/email";
+import { Toaster, toast } from 'sonner'
 
 export default function Contact({ }) {
     const { register, handleSubmit } = useForm();
+    const {stateEmail, setStateEmail} = useState(0);
     const submitNewMessage = (data) => {
-        let dataForm = document.createElement("form");
-        let inputName = document.createElement("input");
-        inputName.type = "text";
-        inputName.value = data.user_name;
-        inputName.name = "from_name";
-        dataForm.appendChild(inputName);
-        let inputGmail = document.createElement("input");
-        inputGmail.type = "text";
-        inputGmail.value = data.user_email;
-        inputGmail.name = "from_email";
-        dataForm.appendChild(inputGmail);
-        let inputMessage = document.createElement("input");
-        inputMessage.type = "text";
-        inputMessage.value = data.message;
-        inputMessage.name = "message";
-        dataForm.appendChild(inputMessage);
-        emailjs.sendForm('service_fpvbdzi', 'template_irt4vgw', dataForm, '-a-oLVjAcP6i062lJ')
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
+        let responseStatus, responseText;
+        emailJS(data).then(function (response) {
+            toast.success("El Email fue enviado con exito")
+        }, function (error) {
+            setStateEmail(error.status);
+            toast.error("Algo salió mal, intentalo de nuevo")
+        });
     }
     return (
         <div className={styles.container}>
+            <Toaster position="bottom-right" expand={false} richColors/>
             <div className={styles.contactInfo}>
                 <h1 className={styles.title}>Contáctame</h1>
                 <form onSubmit={handleSubmit(submitNewMessage)} className={styles.formContact}>
@@ -41,7 +29,7 @@ export default function Contact({ }) {
                     </div>
                     <div className={styles.formEmail}>
                         <label>Gmail</label>
-                        <input type="text" {...register("user_email")} required={true} />
+                        <input type="email" {...register("user_email")} required={true} />
                     </div>
                     <div className={styles.formMessage}>
                         <label>Mensaje</label>
