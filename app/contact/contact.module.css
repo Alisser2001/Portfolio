@@ -74,6 +74,10 @@
 }
 
 .formName>input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     height: 6vh;
     max-height: 6vh;
     width: 36vw;
@@ -110,6 +114,10 @@
 }
 
 .formEmail>input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     height: 6vh;
     max-height: 6vh;
     width: 36vw;
@@ -156,7 +164,7 @@
     border-top-right-radius: 1vw;
     border-bottom-right-radius: 1vw;
     font-size: 1.2vw;
-    padding: 0 5px;
+    padding: 5px;
     font-family: ConcertOne;
 }
 
@@ -321,7 +329,7 @@
         font-size: 4vw;
     }
 
-    .formContact>input {
+    .submit {
         width: 20vw;
         max-width: 20vw;
         height: 5vh;
@@ -331,9 +339,8 @@
         cursor: pointer;
     }
 
-    .formContact>input:hover {
-        color: white;
-        transform: scale(1.1);
+    .submit:hover {
+        font-size: 3.4vw;
     }
 
     .networkInfo {
@@ -402,7 +409,7 @@
         height: 7vh;
         max-height: 7vh;
     }
-    .formMessage>input{
+    .formMessage>textarea{
         font-size: 5vw;
         height: 22vh;
         max-height: 22vh;
