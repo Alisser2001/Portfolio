@@ -295,14 +295,14 @@
         width: 90vw;
         max-width: 90vw;
         margin: 0px 5vw;
-        font-size: 3vw;
+        font-size: 2vw;
     }
 
     .formEmail>input {
         width: 90vw;
         max-width: 90vw;
         margin: 0px 5vw;
-        font-size: 3vw;
+        font-size: 2vw;
     }
 
     .formMessage>textarea {
@@ -311,7 +311,7 @@
         margin: 0px 5vw;
         height: 20vh;
         max-height: 20vh;
-        font-size: 3vw;
+        font-size: 2vw;
     }
 
     .formName>label {
@@ -401,16 +401,16 @@
     }
     .formName>input{
         height: 7vh;
-        font-size: 5vw;
+        font-size: 2.5vw;
         max-height: 7vh;
     }
     .formEmail>input{
-        font-size: 5vw;
+        font-size: 2.5vw;
         height: 7vh;
         max-height: 7vh;
     }
     .formMessage>textarea{
-        font-size: 5vw;
+        font-size: 2.5vw;
         height: 22vh;
         max-height: 22vh;
     }
