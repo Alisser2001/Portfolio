@@ -74,12 +74,11 @@
 }
 
 .formName>input {
+    all: unset;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 0;
-    padding: 0;
     height: 6vh;
     max-height: 6vh;
     width: 36vw;
@@ -90,6 +89,7 @@
     border-top-right-radius: 5vw;
     border-bottom-right-radius: 5vw;
     box-sizing: border-box;
+    padding: 0 5px;
     font-size: 1.2vw;
     font-family: ConcertOne;
 }
@@ -116,12 +116,11 @@
 }
 
 .formEmail>input {
+    all: unset;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 0;
-    padding: 0;
     height: 6vh;
     max-height: 6vh;
     width: 36vw;
@@ -133,6 +132,7 @@
     border-top-right-radius: 5vw;
     border-bottom-right-radius: 5vw;
     box-sizing: border-box;
+    padding: 0 5px;
     font-family: ConcertOne;
 }
 
@@ -158,17 +158,17 @@
 }
 
 .formMessage>textarea {
+    all: unset;
     height: 21vh;
     max-height: 21vh;
     width: 36vw;
-    margin: 0;
-    padding: 0;
     max-width: 36vw;
     margin: 0px 2vw;
     border-top-left-radius: 1vw;
     border-bottom-left-radius: 1vw;
     border-top-right-radius: 1vw;
     border-bottom-right-radius: 1vw;
+    padding: 0 5px;
     font-size: 1.2vw;
     box-sizing: border-box;
     font-family: ConcertOne;
