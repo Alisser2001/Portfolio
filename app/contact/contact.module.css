@@ -78,6 +78,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
     height: 6vh;
     max-height: 6vh;
     width: 36vw;
@@ -87,6 +89,7 @@
     border-bottom-left-radius: 5vw;
     border-top-right-radius: 5vw;
     border-bottom-right-radius: 5vw;
+    box-sizing: border-box;
     font-size: 1.2vw;
     padding: 0 5px;
     font-family: ConcertOne;
@@ -118,6 +121,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
     height: 6vh;
     max-height: 6vh;
     width: 36vw;
@@ -128,6 +133,7 @@
     border-bottom-left-radius: 5vw;
     border-top-right-radius: 5vw;
     border-bottom-right-radius: 5vw;
+    box-sizing: border-box;
     padding: 0 5px;
     font-family: ConcertOne;
 }
@@ -157,6 +163,8 @@
     height: 21vh;
     max-height: 21vh;
     width: 36vw;
+    margin: 0;
+    padding: 0;
     max-width: 36vw;
     margin: 0px 2vw;
     border-top-left-radius: 1vw;
@@ -164,6 +172,7 @@
     border-top-right-radius: 1vw;
     border-bottom-right-radius: 1vw;
     font-size: 1.2vw;
+    box-sizing: border-box;
     padding: 5px;
     font-family: ConcertOne;
 }
@@ -295,14 +304,14 @@
         width: 90vw;
         max-width: 90vw;
         margin: 0px 5vw;
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
     .formEmail>input {
         width: 90vw;
         max-width: 90vw;
         margin: 0px 5vw;
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
     .formMessage>textarea {
@@ -311,7 +320,7 @@
         margin: 0px 5vw;
         height: 20vh;
         max-height: 20vh;
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
     .formName>label {
@@ -366,7 +375,7 @@
         max-height: 8vh;
     }
 
-    .link>p{
+    .link>p {
         display: none;
     }
 
@@ -392,35 +401,41 @@
     }
 }
 
-@media(max-width: 600px){
-    .link>img{
+@media(max-width: 600px) {
+    .link>img {
         width: 14vw;
         max-width: 14vw;
         height: 8vh;
         max-height: 8vh;
     }
-    .formName>input{
+
+    .formName>input {
         height: 7vh;
-        font-size: 2.5vw;
+        font-size: 5vw;
         max-height: 7vh;
     }
-    .formEmail>input{
-        font-size: 2.5vw;
+
+    .formEmail>input {
+        font-size: 5vw;
         height: 7vh;
         max-height: 7vh;
     }
-    .formMessage>textarea{
-        font-size: 2.5vw;
+
+    .formMessage>textarea {
+        font-size: 5vw;
         height: 22vh;
         max-height: 22vh;
     }
-    .formName>label{
+
+    .formName>label {
         height: 3vh;
     }
-    .formEmail>label{
+
+    .formEmail>label {
         height: 3vh;
     }
-    .formMessage>label{
+
+    .formMessage>label {
         height: 3vh;
     }
 }
