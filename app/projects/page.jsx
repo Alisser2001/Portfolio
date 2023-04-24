@@ -6,7 +6,7 @@ export default function Projects({ }) {
     const [visible, setVisible] = useState(1);
     const changeVisible = (type) => {
         if (type === "up") {
-            if (visible < 3) {
+            if (visible < 4) {
                 setVisible(visible + 1);
             }
         }
@@ -46,7 +46,7 @@ export default function Projects({ }) {
                         <p className={styles.projectDescriptionResponsive}>Presiona la imagen para más información</p>
                         <a className={styles.projectLinkResponsive} href="https://dogs-page-deploy.vercel.app" target="_blank">Ir a la página</a>
                     </> :
-                        <>
+                        visible === 3 ? <>
                             <div className={styles.project}>
                                 <img src="/WeatherApp.png" className={styles.projectImg} />
                                 <div className={styles.containerInfo}>
@@ -58,6 +58,18 @@ export default function Projects({ }) {
                             <h3 className={styles.projectTitleResponsive}>Weather App</h3>
                             <p className={styles.projectDescriptionResponsive}>Presiona la imagen para más información</p>
                             <a className={styles.projectLinkResponsive} href="https://weather-app-deploy-blue.vercel.app" target="_blank">Ir a la página</a>
+                        </> : <>
+                            <div className={styles.project}>
+                                <img src="/TranslateClone.png" className={styles.projectImg} />
+                                <div className={styles.containerInfo}>
+                                    <h3 className={styles.projectTitle}>Translate Clone</h3>
+                                    <p className={styles.projectDescription}>Aplicación web que intenta imitar el diseño y funcionalidad de Google Translate. Realizada con ViteJs, usando TypeScript con SWC, CSS puro, React y Google Translate API</p>
+                                    <a className={styles.projectLink} href="https://clone-google-translate.vercel.app/" target="_blank">Ir a la página</a>
+                                </div>
+                            </div>
+                            <h3 className={styles.projectTitleResponsive}>Translate Clone</h3>
+                            <p className={styles.projectDescriptionResponsive}>Presiona la imagen para más información</p>
+                            <a className={styles.projectLinkResponsive} href="https://clone-google-translate.vercel.app/" target="_blank">Ir a la página</a>
                         </>
                 }
             </div>
