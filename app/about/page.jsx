@@ -25,10 +25,13 @@ export default function AboutMe({ }) {
                     <p>NextJS</p>
                     <p>Express</p>
                     <p>Redux</p>
+                    <p>NestJs</p>
+                    <p>TypeORM</p>
                     <p>Sequelize</p>
                     <p>SQL</p>
                     <p>CSS 3</p>
                     <p>Git Flow</p>
+                    <p>PostMan</p>
                 </ul>
             </div>
         </div>
