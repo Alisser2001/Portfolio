@@ -6,7 +6,7 @@ export default function Projects({ }) {
     const [visible, setVisible] = useState(1);
     const changeVisible = (type) => {
         if (type === "up") {
-            if (visible < 4) {
+            if (visible < 6) {
                 setVisible(visible + 1);
             }
         }
@@ -58,7 +58,7 @@ export default function Projects({ }) {
                             <h3 className={styles.projectTitleResponsive}>Weather App</h3>
                             <p className={styles.projectDescriptionResponsive}>Presiona la imagen para más información</p>
                             <a className={styles.projectLinkResponsive} href="https://weather-app-deploy-blue.vercel.app" target="_blank">Ir a la página</a>
-                        </> : <>
+                        </> : visible === 4 ? <>
                             <div className={styles.project}>
                                 <img src="/TranslateClone.png" className={styles.projectImg} />
                                 <div className={styles.containerInfo}>
@@ -70,6 +70,30 @@ export default function Projects({ }) {
                             <h3 className={styles.projectTitleResponsive}>Translate Clone</h3>
                             <p className={styles.projectDescriptionResponsive}>Presiona la imagen para más información</p>
                             <a className={styles.projectLinkResponsive} href="https://clone-google-translate.vercel.app/" target="_blank">Ir a la página</a>
+                        </> : visible === 5 ? <>
+                            <div className={styles.project}>
+                                <img src="/FlickVerse.png" className={styles.projectImg} />
+                                <div className={styles.containerInfo}>
+                                    <h3 className={styles.projectTitle}>FlickVerse</h3>
+                                    <p className={styles.projectDescription}>Aplicación web para el rating de peliculas y series. Desarrollada en TypeScript, con un backend en NestJs con TypeORM y PosgreSQL, y un frontend en ViteJs con SWC, React, Redux y CSS.</p>
+                                    <a className={styles.projectLink} href="https://github.com/Alisser2001/Movies-Project.git/" target="_blank">Ir al repositorio</a>
+                                </div>
+                            </div>
+                            <h3 className={styles.projectTitleResponsive}>FlickVerse</h3>
+                            <p className={styles.projectDescriptionResponsive}>Presiona la imagen para más información</p>
+                            <a className={styles.projectLinkResponsive} href="https://github.com/Alisser2001/Movies-Project.git/" target="_blank">Ir al repositorio</a>
+                        </> : <>
+                            <div className={styles.project}>
+                                <img src="/COIL.png" className={styles.projectImg} />
+                                <div className={styles.containerInfo}>
+                                    <h3 className={styles.projectTitle}>Videojuego COIL</h3>
+                                    <p className={styles.projectDescription}>Videojuego realizado en Java con Maven, bajo el enfoque de trabajo COIL, el cual consiste de varios minijuegos de aprendizaje básico sobre conceptos en el idioma inglés.</p>
+                                    <a className={styles.projectLink} href="https://github.com/Alisser2001/Proyecto-COIL.git/" target="_blank">Ir al repositorio</a>
+                                </div>
+                            </div>
+                            <h3 className={styles.projectTitleResponsive}>Videojuego COIL</h3>
+                            <p className={styles.projectDescriptionResponsive}>Presiona la imagen para más información</p>
+                            <a className={styles.projectLinkResponsive} href="https://github.com/Alisser2001/Proyecto-COIL.git/" target="_blank">Ir al repositorio</a>
                         </>
                 }
             </div>
