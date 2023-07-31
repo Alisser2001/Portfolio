@@ -10,11 +10,14 @@ export default function AboutMe({ }) {
     return (
         <div className={styles.aboutContainer}>
             <div className={styles.profile}>
-                {profileView ? <img src="/perfil.png" className={styles.profileImg} onMouseEnter={()=>handleProfileView()}/>
-                : <div className={styles.CV} onMouseLeave={()=>handleProfileView()}>
-                    <img src="/CV.png" className={styles.profileCV}/>
-                    <a href="/CV.pdf" target="_blank">Ir al CV</a>
-                </div>}
+                {profileView ? <img src="/perfil.png" className={styles.profileImg} onMouseEnter={() => handleProfileView()} />
+                    : <div className={styles.CV} onMouseLeave={() => handleProfileView()}>
+                        <img src="/CV.png" className={styles.profileCV} />
+                        <div className={styles.links}>
+                            <a href="/CV.pdf" target="_blank">Ir al CV</a>
+                            <a href="https://drive.google.com/drive/folders/1BB-DEmcK4UqsKDXK4J4J1O0Q3CAUAsM5?usp=sharing" target="_blank">Certificados</a>
+                        </div>
+                    </div>}
             </div>
             <div className={styles.info}>
                 <p className={styles.presentation}>
@@ -29,10 +32,12 @@ export default function AboutMe({ }) {
                     <li><p>TypeScript</p></li>
                     <li><p>Python</p></li>
                     <li><p>Java</p></li>
+                    <li><p>C#</p></li>
                     <li><p>NodeJS</p></li>
                     <li><p>ReactJS</p></li>
                     <li><p>NextJS</p></li>
                     <li><p>Express</p></li>
+                    <li><p>ASP.NET</p></li>
                     <li><p>Redux</p></li>
                     <li><p>NestJs</p></li>
                     <li><p>TypeORM</p></li>
