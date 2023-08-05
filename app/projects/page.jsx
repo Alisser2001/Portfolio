@@ -6,7 +6,7 @@ export default function Projects({ }) {
     const [visible, setVisible] = useState(1);
     const changeVisible = (type) => {
         if (type === "up") {
-            if (visible < 6) {
+            if (visible < 7) {
                 setVisible(visible + 1);
             }
         }
@@ -82,7 +82,7 @@ export default function Projects({ }) {
                             <h3 className={styles.projectTitleResponsive}>FlickVerse</h3>
                             <p className={styles.projectDescriptionResponsive}>Presiona la imagen para más información</p>
                             <a className={styles.projectLinkResponsive} href="https://github.com/Alisser2001/Movies-Project.git/" target="_blank">Ir al repositorio</a>
-                        </> : <>
+                        </> : visible === 6 ? <>
                             <div className={styles.project}>
                                 <img src="/COIL.png" className={styles.projectImg} />
                                 <div className={styles.containerInfo}>
@@ -94,6 +94,18 @@ export default function Projects({ }) {
                             <h3 className={styles.projectTitleResponsive}>Videojuego COIL</h3>
                             <p className={styles.projectDescriptionResponsive}>Presiona la imagen para más información</p>
                             <a className={styles.projectLinkResponsive} href="https://github.com/Alisser2001/Proyecto-COIL.git/" target="_blank">Ir al repositorio</a>
+                        </> : <>
+                            <div className={styles.project}>
+                                <img src="/Connect4.png" className={styles.projectImg} />
+                                <div className={styles.containerInfo}>
+                                    <h3 className={styles.projectTitle}>Connect4</h3>
+                                    <p className={styles.projectDescription}>Videojuego realizado en ASP.NET con Razor Pages y C#, simula ser una versión web del famoso juego de mesa Connect4, con posibilidad de juego contra la máquina u otra persona.</p>
+                                    <a className={styles.projectLink} href="https://github.com/Alisser2001/ConnectFour.git/" target="_blank">Ir al repositorio</a>
+                                </div>
+                            </div>
+                            <h3 className={styles.projectTitleResponsive}>Connect4</h3>
+                            <p className={styles.projectDescriptionResponsive}>Presiona la imagen para más información</p>
+                            <a className={styles.projectLinkResponsive} href="https://github.com/Alisser2001/ConnectFour.git/" target="_blank">Ir al repositorio</a>
                         </>
                 }
             </div>
