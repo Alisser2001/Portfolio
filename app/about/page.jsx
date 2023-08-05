@@ -45,9 +45,9 @@ export default function AboutMe({ }) {
                     <li><p>SQL</p></li>
                     <li><p>MongoDB</p></li>
                     <li><p>FastAPI</p></li>
-                    <li><p>CSS 3</p></li>
-                    <li><p>Git Flow</p></li>
-                    <li><p>PostMan</p></li>
+                    <li><p>CSS</p></li>
+                    <li><p>Git</p></li>
+                    <li><p>Bash</p></li>
                 </ul>
             </div>
         </div>
