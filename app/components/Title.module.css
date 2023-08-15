@@ -4,10 +4,10 @@
     justify-content: initial;
     width: 100vw;
     height: 25vh;
-    border-bottom: rgb(252, 204, 4) 5px solid;
+    /*border-bottom: rgb(252, 204, 4) 5px solid;*/
     position: absolute;
     top: 25vh;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     animation: slideTitle 0.5s backwards;
 }
 
@@ -42,7 +42,7 @@
     width: 13vw;
     max-width: 13vw;
     height: 25vh;
-    border-left: rgb(252, 204, 4) 5px solid;
+    /*border-left: rgb(252, 204, 4) 5px solid;*/
     display: flex;
     flex-direction: column;
     justify-content: center;

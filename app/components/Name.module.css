@@ -5,10 +5,10 @@
     width: 100vw;
     height: 25vh;
     max-height: 25vh;
-    border-bottom: rgb(252, 204, 4) 5px solid;
+    /*border-bottom: rgb(252, 204, 4) 5px solid;*/
     position: absolute;
     top: 50vh;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     animation: slideName 1s backwards;
 }
 
@@ -30,8 +30,8 @@
     height: 25vh;
     padding: 0px 100px;
     color: white;
-    border-right: rgb(252,204,4) 5px solid;
-    box-sizing: border-box;
+    /*border-right: rgb(252,204,4) 5px solid;
+    box-sizing: border-box;*/
     font-weight: 600;
 }
 @media(max-width: 900px){

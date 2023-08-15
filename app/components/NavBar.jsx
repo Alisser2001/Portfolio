@@ -9,20 +9,26 @@ export const NavBar = () => {
             <ul className={styles.options}>
                 <li className={styles.homeLink}>
                     <Link href="/" className={styles.link}>
-                        <img src="/home-page.png" className={styles.homeImg}/>
+                        <img src="/home-page.png" className={styles.homeImg} />
                         <p className={styles.linkTitle}>Home</p>
                     </Link>
                 </li>
                 <li className={styles.aboutLink}>
                     <Link href="/about" className={styles.link}>
-                        <img src="/hacker.png" className={styles.aboutImg}/>
+                        <img src="/hacker.png" className={styles.aboutImg} />
                         <p className={styles.linkTitle}>About</p>
                     </Link>
                 </li>
                 <li className={styles.projectsLink}>
                     <Link href="/projects" className={styles.link}>
-                        <img src="/innovacion.png" className={styles.projectsImg}/>
+                        <img src="/innovacion.png" className={styles.projectsImg} />
                         <p className={styles.linkTitle}>Projects</p>
+                    </Link>
+                </li>
+                <li className={styles.contactLink}>
+                    <Link href="/contact" className={styles.link}>
+                        <img src="/correo-electronico.png" className={styles.contactImg} />
+                        <p className={styles.linkTitle}>Contact</p>
                     </Link>
                 </li>
             </ul>

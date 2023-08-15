@@ -12,30 +12,19 @@
     animation: slideProjects 0.5s backwards;
 }
 
-.container>button {
-    width: 10vw;
-    max-width: 10vw;
-    height: 20vh;
-    max-height: 20vh;
-    margin: 0 2vw;
-    font-size: 5vw;
-    border-radius: 50%;
-    background-color: transparent;
-    color: rgb(252, 204, 4);
-    border: none;
+.buttonLeft, .buttonRight {
+    width: 5vw;
+    height: 10vh;
+}
+
+.buttonLeft:hover {
+    transform: scale(1.1);
     cursor: pointer;
 }
 
-.container>button:hover {
-    transform: scale(1.5);
-}
-
-.button1 {
-    rotate: 90deg;
-}
-
-.button2 {
-    rotate: 270deg;
+.buttonRight:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .buttons {
@@ -74,6 +63,7 @@
     max-height: 75vh;
     opacity: 0.5;
     display: block;
+    border-top-left-radius: 8px;
 }
 
 .containerInfo {
@@ -94,7 +84,7 @@
     content: "";
     position: absolute;
     inset: 20px;
-    border: 5px solid rgb(252, 204, 4);
+    /*border: 5px solid rgb(252, 204, 4);*/
     opacity: 0;
     scale: 1.1;
     transition: opacity 0.25s,
@@ -160,18 +150,19 @@
     text-decoration: none;
     font-size: 1.5vw;
     margin: 0;
-    border: rgb(252, 204, 4) 4px solid;
+    background-color: rgb(252, 204, 4);
+    /*border: rgb(252, 204, 4) 4px solid;*/
     border-top-left-radius: 5vw;
     border-bottom-left-radius: 5vw;
     border-top-right-radius: 5vw;
     border-bottom-right-radius: 5vw;
-    color: white;
+    color: #161616;
     font-weight: 700;
     position: relative;
     text-align: center;
 }
 .projectLink:hover{
-    font-size: 1.6vw;
+    transform: scale(1.1);
 }
 
 .infoProjects:hover .projectImg {

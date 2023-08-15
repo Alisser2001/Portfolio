@@ -10,7 +10,10 @@ export default function AboutMe({ }) {
     return (
         <div className={styles.aboutContainer}>
             <div className={styles.profile}>
-                {profileView ? <img src="/perfil.png" className={styles.profileImg} onMouseEnter={() => handleProfileView()} />
+                {profileView ? <>
+                    <img src="/perfil.png" className={styles.profileImg} onMouseEnter={() => handleProfileView()} />
+                    <img src="/hand.png" className={styles.hand} />
+                </>
                     : <div className={styles.CV} onMouseLeave={() => handleProfileView()}>
                         <img src="/CV.png" className={styles.profileCV} />
                         <div className={styles.links}>
