@@ -30,11 +30,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 8vw;
+    font-size: 10vw;
     height: 25vh;
     color: white;
-    width: 86.8vw;
+    width: 100vw;
     box-sizing: border-box;
+    font-family: StreetHipster, ConcertOne;
     font-weight: 600;
 }
 
@@ -80,11 +81,12 @@
         height: 25vh;
         color: white;
         box-sizing: border-box;
+        font-family: StreetHipster;
         font-weight: 600;
-        font-size: 8vw;
-        padding: 0px 50px;
-        width: 66.6vw;
-        max-width: 66.6vw;
+        font-size: 20vw;
+        padding: 0;
+        width: 100vw;
+        max-width: 100vw;
     }
 
     .link {

@@ -286,8 +286,8 @@
         padding-top: 0;
     }
 
-    .button1,
-    .button2 {
+    .buttonLeft,
+    .buttonRight {
         display: none;
     }
 
@@ -305,12 +305,12 @@
         border-top: rgb(252, 204, 4) 3px solid;
     }
 
-    .buttons>button {
+    .buttons>img {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 10vw;
-        max-width: 10vw;
+        width: 18vw;
+        max-width: 18vw;
         height: 15vh;
         max-height: 15vh;
         margin: 0 2vw;
@@ -322,24 +322,8 @@
         box-sizing: border-box;
     }
 
-    .buttons>button:hover {
-        transform: scale(1.5);
-    }
-
-    .buttons>button:nth-child(1) {
-        border-top: rgb(252, 204, 4) 3px solid;
-    }
-
-    .buttons>button:nth-child(2) {
-        border-top: rgb(252, 204, 4) 3px solid;
-    }
-
-    .buttons>button:nth-child(1) {
-        rotate: 90deg;
-    }
-
-    .buttons>button:nth-child(2) {
-        rotate: 270deg;
+    .buttons>img:hover {
+        transform: scale(1.15);
     }
 }
 

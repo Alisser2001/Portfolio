@@ -47,6 +47,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 0 0 9vw;
 }
 
 .links>a{
@@ -87,7 +88,7 @@
     max-width: 30vw;
     height: 60vh;
     max-height: 60vh;
-    padding: 0px 5vw;
+    padding: 0 0 0 9vw;
     border-radius: 50%;
 }
 
@@ -96,6 +97,7 @@
     width: 5vw;
     height: 10vh;
     margin-top: 43vh;
+    padding: 0 0 0 7vw;
     animation: profileFocus 5s infinite;
 }
 
@@ -343,6 +345,12 @@
         max-width: 90vw;
         height: 13vh;
         max-height: 13vh;
+    }
+
+    .hand{
+        margin-top: 17vh;
+        height: 5vh;
+        padding: 0;
     }
 
     .tecnologies {

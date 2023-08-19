@@ -17,12 +17,13 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    font-size: 8vw;
+    font-size: 10vw;
     height: 25vh;
-    padding: 0 0 0 2vw;
+    padding: 0 0 0 5vw;
     color: white;
     width: 50vw;
     font-weight: 600;
+    font-family: StreetHipster, ConcertOne;
 }
 
 .options {
@@ -92,11 +93,12 @@
     
     .homeLink,
     .aboutLink,
-    .projectsLink {
+    .projectsLink,
+    .contactLink {
         height: 25vh;
         max-height: 25vh;
-        width: 33vw;
-        max-width: 33vw;
+        width: 25%;
+        max-width: 25%;
         display: flex;
         justify-content: center;
     }
@@ -113,8 +115,8 @@
     }
 
     .link {
-        width: 40vw;
-        max-width: 40vw;
+        width: 25vw;
+        max-width: 25vw;
         height: 25vh;
         max-height: 25vh;
         justify-content: center;
@@ -123,7 +125,8 @@
 
     .homeImg,
     .aboutImg,
-    .projectsImg {
+    .projectsImg,
+    .contactImg {
         width: 25vw;
         max-width: 25vw;
         height: 15vh;
