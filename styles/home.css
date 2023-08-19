@@ -4,6 +4,12 @@
     font-style: normal;
     font-weight: normal;
 }
+@font-face {
+    font-family: StreetHipster;
+    src: url('../fonts/Street\ Hipster.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
 .home {
     margin: 0;
     padding: 0;
