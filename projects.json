@@ -1,0 +1,53 @@
+[
+    {
+        "img": "/DevsLearning.jpg",
+        "title": "Devs Learning",
+        "description": "Aplicación web de servicios de E-Learning, realizada como proyecto final de SoyHenry. Hecha con TypeScript, React, NodeJs, Material UI, Redux, Express, Sequelize  y PosgreSQL",
+        "type": "web",
+        "link": "https://devs-learning-5hal.vercel.app",
+        "order": 1
+    },
+    {
+        "img": "/DogsPage.jpg",
+        "title": "The Dogs Page",
+        "description": "Página web informativa sobre razas de perros, realizada como proyecto individual de SoyHenry. Hecha con JavaScript, React, NodeJs, Redux, CSS3, Express, Sequelize y PosgreSQL",
+        "type": "web",
+        "link": "https://dogs-page-deploy.vercel.app",
+        "order": 2
+    },{
+        "img": "/WeatherApp.jpg",
+        "title": "Weather App",
+        "description": "Aplicación web que brinda al usuario datos del clima sobre el lugar que consulte. Hecha con JavaScript, React, NodeJs, Redux, CSS3 y la API de OpenWeatherAPI",
+        "type": "web",
+        "link": "https://weather-app-deploy-blue.vercel.app",
+        "order": 3
+    },{
+        "img": "/TranslateClone.jpg",
+        "title": "Translate Clone",
+        "description": "Aplicación web que intenta imitar el diseño y funcionalidad de Google Translate. Realizada con ViteJs, usando TypeScript con SWC, CSS puro, React y Google Translate API",
+        "type": "web",
+        "link": "https://clone-google-translate.vercel.app/",
+        "order": 4
+    },{
+        "img": "/FlickVerse.jpg",
+        "title": "FlickVerse",
+        "description": "Aplicación web para el rating de peliculas y series. Desarrollada en TypeScript, con un backend en NestJs con TypeORM y PosgreSQL, y un frontend en ViteJs con SWC, React, Redux y CSS",
+        "type": "repo",
+        "link": "https://github.com/Alisser2001/Movies-Project.git/",
+        "order": 5
+    },{
+        "img": "/COIL.jpg",
+        "title": "Videojuego COIL",
+        "description": "Videojuego realizado en Java con Maven, bajo el enfoque de trabajo COIL, el cual consiste de varios minijuegos de aprendizaje básico sobre conceptos en el idioma inglés",
+        "type": "repo",
+        "link": "https://github.com/Alisser2001/Proyecto-COIL.git/",
+        "order": 6
+    },{
+        "img": "/Connect4.jpg",
+        "title": "Connect4",
+        "description": "Videojuego realizado en ASP.NET con Razor Pages y C#, simula ser una versión web del famoso juego de mesa Connect4, con posibilidad de juego contra la máquina u otra persona",
+        "type": "repo",
+        "link": "https://github.com/Alisser2001/ConnectFour.git/",
+        "order": 7
+    }
+]

@@ -8,9 +8,9 @@
     top: 25vh;
     max-height: 100vh;
     align-items: center;
-    border-bottom: rgb(252, 204, 4) 5px solid;
+    /*border-bottom: rgb(252, 204, 4) 5px solid;*/
     position: absolute;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     animation: slideAbout 0.5s backwards;
 }
 
@@ -29,17 +29,17 @@
     max-width: 40vw;
     height: 60vh;
     max-height: 60vh;
-    border-right: rgb(252, 204, 4) 5px solid;
+    /*border-right: rgb(252, 204, 4) 5px solid;*/
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
 }
 
 .CV{
-    width: 40vw;
-    max-width: 40vw;
+    width: 30vw;
+    max-width: 30vw;
     height: 60vh;
     max-height: 60vh;
     padding: 0px 5vw;
@@ -67,7 +67,8 @@
     border-bottom-left-radius: 5vw;
     border-top-right-radius: 5vw;
     border-bottom-right-radius: 5vw;
-    border: rgb(252, 204, 4) 5px solid;
+    color: #161616;
+    background-color: rgb(252, 204, 4);
 }
 
 .links>a:hover{
@@ -88,7 +89,14 @@
     max-height: 60vh;
     padding: 0px 5vw;
     border-radius: 50%;
-    animation: profileFocus 10s infinite;
+}
+
+.hand{
+    position: absolute;
+    width: 5vw;
+    height: 10vh;
+    margin-top: 43vh;
+    animation: profileFocus 5s infinite;
 }
 
 @keyframes profileFocus {
@@ -97,7 +105,7 @@
     }
 
     25% {
-        transform: scale(1.05);
+        transform: scale(1.2);
     }
 
     50% {
@@ -105,7 +113,7 @@
     }
 
     75% {
-        transform: scale(1.05);
+        transform: scale(1.2);
     }
 
     100% {
@@ -187,14 +195,13 @@
     margin-top: 0vh;
     margin-bottom: 0;
     z-index: -2;
-    
 }
 
 .tecnologies>li {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #161616;
     width: 8vw;
     max-width: 8vw;
     height: 4vh;
@@ -202,7 +209,7 @@
     font-size: 1.5vw;
     padding: 5px;
     margin: 0.5vh 1vw;
-    border: rgb(252, 204, 4) 5px solid;
+    background-color: rgb(252, 204, 4);
     font-weight: 100;
 }
 

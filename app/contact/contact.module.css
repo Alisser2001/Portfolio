@@ -14,7 +14,6 @@
     height: 75vh;
     max-height: 75vh;
     top: 25vh;
-    border-bottom: rgb(252, 204, 4) 5px solid;
     animation: slideContact 0.5s backwards;
 }
 
@@ -88,7 +87,7 @@
     border-top-right-radius: 5vw;
     border-bottom-right-radius: 5vw;
     box-sizing: border-box;
-    padding: 0 5px;
+    padding: 0 10px;
     font-size: 1.2vw;
     font-family: ConcertOne;
 }
@@ -130,7 +129,7 @@
     border-top-right-radius: 5vw;
     border-bottom-right-radius: 5vw;
     box-sizing: border-box;
-    padding: 0 5px;
+    padding: 0 10px;
     font-family: ConcertOne;
 }
 
@@ -165,7 +164,7 @@
     border-bottom-left-radius: 1vw;
     border-top-right-radius: 1vw;
     border-bottom-right-radius: 1vw;
-    padding: 0 5px;
+    padding: 0 10px;
     font-size: 1.2vw;
     box-sizing: border-box;
     font-family: ConcertOne;
@@ -179,20 +178,20 @@
     max-height: 7vh;
     margin: 2vh 0%;
     font-family: 'Open Sans', sans-serif;
-    background-color: transparent;
-    border: rgb(252, 204, 4) 5px solid;
-    color: white;
+    background-color: rgb(252, 204, 4);
+    color: #161616;;
     border-top-left-radius: 5vw;
     border-bottom-left-radius: 5vw;
     border-top-right-radius: 5vw;
     border-bottom-right-radius: 5vw;
+    border: none;
     font-size: 1.5vw;
     font-family: ConcertOne;
     cursor: pointer;
 }
 
 .submit:hover {
-    font-size: 1.6vw;
+    transform: scale(1.1);
 }
 
 .networkInfo {
@@ -241,28 +240,6 @@
     color: white;
     font-size: 2vw;
     margin: 2vh 0 0 0;
-}
-
-.link:nth-child(1) {
-    border-left: rgb(252, 204, 4) 5px solid;
-    border-bottom: rgb(252, 204, 4) 5px solid;
-    box-sizing: border-box;
-}
-
-.link:nth-child(2) {
-    border-bottom: rgb(252, 204, 4) 5px solid;
-    border-left: rgb(252, 204, 4) 5px solid;
-    box-sizing: border-box;
-}
-
-.link:nth-child(3) {
-    border-left: rgb(252, 204, 4) 5px solid;
-    box-sizing: border-box;
-}
-
-.link:nth-child(4) {
-    border-left: rgb(252, 204, 4) 5px solid;
-    box-sizing: border-box;
 }
 
 @media(max-width: 900px) {
