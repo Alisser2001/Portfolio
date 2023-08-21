@@ -150,7 +150,8 @@
 @media(max-width: 600px){
     .homeImg,
     .aboutImg,
-    .projectsImg {
+    .projectsImg,
+    .contactImg {
         width: 25vw;
         max-width: 25vw;
         height: 14vh;
