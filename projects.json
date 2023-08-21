@@ -46,8 +46,8 @@
         "img": "/Connect4.jpg",
         "title": "Connect4",
         "description": "Videojuego realizado en ASP.NET con Razor Pages y C#, simula ser una versión web del famoso juego de mesa Connect4, con posibilidad de juego contra la máquina u otra persona",
-        "type": "repo",
-        "link": "https://github.com/Alisser2001/ConnectFour.git/",
+        "type": "web",
+        "link": "https://connect4.azurewebsites.net/",
         "order": 7
     }
 ]
