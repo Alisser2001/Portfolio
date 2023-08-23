@@ -5,7 +5,7 @@
     width: 100vw;
     height: 25vh;
     /*border-bottom: rgb(252, 204, 4) 5px solid;*/
-    position: absolute;
+    /*position: absolute;
     top: 75vh;
     /*box-sizing: border-box;*/
     animation: slideLastName 1.5s backwards;

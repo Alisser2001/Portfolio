@@ -6,7 +6,7 @@
     height: 25vh;
     max-height: 25vh;
     /*border-bottom: rgb(252, 204, 4) 5px solid;*/
-    position: absolute;
+    /*position: absolute;
     top: 50vh;
     /*box-sizing: border-box;*/
     animation: slideName 1s backwards;
