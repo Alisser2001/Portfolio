@@ -265,6 +265,9 @@
 @media(max-width: 900px) {
     .aboutContainer {
         flex-direction: column;
+        justify-content: center;
+        height: 80vh;
+        max-height: 80vh;
     }
 
     .profile {

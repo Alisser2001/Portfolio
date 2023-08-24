@@ -247,6 +247,9 @@
 @media(max-width: 900px) {
     .container {
         flex-direction: column;
+        height: 80vh;
+        max-height: 80vh;
+        justify-content: flex-end;
     }
 
     .contactInfo {
@@ -317,7 +320,7 @@
         height: 5vh;
         max-height: 5vh;
         margin: 0;
-        font-size: 3vw;
+        font-size: 4vw;
         cursor: pointer;
     }
 

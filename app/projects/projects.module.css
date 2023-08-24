@@ -179,6 +179,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        height: 80vh;
+        max-height: 80vh;
     }
 
     .infoProjects {
@@ -259,7 +261,7 @@
         max-width: 40vw;
         height: 5vh;
         max-height: 5vh;
-        font-size: 3vw;
+        font-size: 4vw;
         text-decoration: none;
         border: rgb(252, 204, 4) 3px solid;
         border-top-left-radius: 5vw;
