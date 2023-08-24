@@ -19,5 +19,24 @@
     background-color: #161616;
     height: 100vh;
     max-height: 100vh;
-    overflow: hidden;
+    /*overflow: hidden;*/
+}
+
+.toTop{
+    position: fixed;
+    width: 5vw;
+    height: 5vw;
+    top: 88vh;
+    left: 94vw;
+    cursor: pointer;
+}
+
+.toTop:hover{
+    transform: scale(1.1);
+}
+
+@media(max-width: 600px){
+    .toTop{
+        display: none;
+    }
 }

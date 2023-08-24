@@ -1,35 +1,32 @@
 'use client';
-import Link from "next/link";
 import styles from "./NavBar.module.css";
 
 export const NavBar = () => {
+    const scroll = (e, value) => {
+        e.preventDefault();
+        window.scrollTo({ top: value, behavior: 'smooth' });
+    }
     return (
         <nav className={styles.container}>
             <h1 className={styles.title}>PORTAFOLIO</h1>
             <ul className={styles.options}>
-                <li className={styles.homeLink}>
-                    <Link href="/" className={styles.link}>
-                        <img src="/home-page.png" className={styles.homeImg} />
-                        <p className={styles.linkTitle}>Home</p>
-                    </Link>
-                </li>
                 <li className={styles.aboutLink}>
-                    <Link href="/about" className={styles.link}>
-                        <img src="/hacker.png" className={styles.aboutImg} />
+                    <a href="/" className={styles.link} onClick={(e)=>scroll(e, 820)}>
+                        <img src="/hacker.png" className={styles.aboutImg} alt="toAbout" onClick={(e)=>{e.preventDefault()}}/>
                         <p className={styles.linkTitle}>About</p>
-                    </Link>
+                    </a>
                 </li>
-                <li className={styles.projectsLink}>
-                    <Link href="/projects" className={styles.link}>
-                        <img src="/innovacion.png" className={styles.projectsImg} />
+                <li className={styles.projectsLink} onClick={(e)=>scroll(e, 1640)}>
+                    <a href="/" className={styles.link}>
+                        <img src="/innovacion.png" className={styles.projectsImg} alt="toProjects" onClick={(e)=>{e.preventDefault()}}/>
                         <p className={styles.linkTitle}>Projects</p>
-                    </Link>
+                    </a>
                 </li>
-                <li className={styles.contactLink}>
-                    <Link href="/contact" className={styles.link}>
-                        <img src="/correo-electronico.png" className={styles.contactImg} />
+                <li className={styles.contactLink} onClick={(e)=>scroll(e, 2480)}>
+                    <a href="/" className={styles.link}>
+                        <img src="/correo-electronico.png" className={styles.contactImg} alt="toContact" onClick={(e)=>{e.preventDefault()}}/>
                         <p className={styles.linkTitle}>Contact</p>
-                    </Link>
+                    </a>
                 </li>
             </ul>
         </nav>
