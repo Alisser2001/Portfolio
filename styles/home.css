@@ -4,12 +4,14 @@
     font-style: normal;
     font-weight: normal;
 }
+
 @font-face {
     font-family: StreetHipster;
     src: url('../fonts/Street\ Hipster.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
 }
+
 .home {
     margin: 0;
     padding: 0;
@@ -17,12 +19,12 @@
     box-sizing: border-box;
     font-family: ConcertOne, 'Open Sans', sans-serif;
     background-color: #161616;
-    height: 100vh;
-    max-height: 100vh;
+    height: 75vh;
+    max-height: 75vh;
     /*overflow: hidden;*/
 }
 
-.toTop{
+.toTop {
     position: fixed;
     width: 5vw;
     height: 5vw;
@@ -31,12 +33,19 @@
     cursor: pointer;
 }
 
-.toTop:hover{
+.toTop:hover {
     transform: scale(1.1);
 }
 
-@media(max-width: 600px){
-    .toTop{
+@media(max-width: 900px) {
+    .home {
+        height: 75vh;
+        max-height: 75vh;
+    }
+}
+
+@media(max-width: 600px) {
+    .toTop {
         display: none;
     }
 }

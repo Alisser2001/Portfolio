@@ -12,9 +12,14 @@
     animation: slideProjects 0.5s backwards;
 }
 
-.buttonLeft, .buttonRight {
+.buttonLeft, .buttonRight, .buttonLeftMin, .buttonRightMax {
     width: 5vw;
     height: 10vh;
+}
+
+
+.buttonLeftMin, .buttonRightMax{
+    opacity: 0.5;
 }
 
 .buttonLeft:hover {
@@ -179,8 +184,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 80vh;
-        max-height: 80vh;
+        height: 100vh;
+        max-height: 100vh;
     }
 
     .infoProjects {

@@ -7,7 +7,7 @@ import { Toaster, toast } from 'sonner'
 
 export default function Contact({ }) {
     const { register, handleSubmit } = useForm();
-    const {stateEmail, setStateEmail} = useState(0);
+    const { stateEmail, setStateEmail } = useState(0);
     const submitNewMessage = (data) => {
         let responseStatus, responseText;
         emailJS(data).then(function (response) {
@@ -19,7 +19,7 @@ export default function Contact({ }) {
     }
     return (
         <div className={styles.container}>
-            <Toaster position="bottom-right" expand={false} richColors/>
+            <Toaster position="bottom-right" expand={false} richColors />
             <div className={styles.contactInfo}>
                 <h1 className={styles.title}>Contáctame</h1>
                 <form onSubmit={handleSubmit(submitNewMessage)} className={styles.formContact}>
@@ -38,24 +38,32 @@ export default function Contact({ }) {
                     <input type="submit" className={styles.submit} />
                 </form>
             </div>
-            <div className={styles.networkInfo}>
-                <a href="https://github.com/Alisser2001" target="_blank" className={styles.link}>
-                    <img src="/github.png" />
+            <ul className={styles.networkInfo}>
+                <li className={styles.link}>
+                    <a href="https://github.com/Alisser2001" target="_blank">
+                        <img src="/github.png" />
+                    </a>
                     <p>GitHub</p>
-                </a>
-                <a href="https://www.linkedin.com/in/alisser2001" target="_blank" className={styles.link}>
-                    <img src="/linkedin.png" />
+                </li>
+                <li className={styles.link}>
+                    <a href="https://www.linkedin.com/in/alisser2001" target="_blank">
+                        <img src="/linkedin.png" />
+                    </a>
                     <p>LinkedIn</p>
-                </a>
-                <a href="https://twitter.com/JuanEstivenCar2" target="_blank" className={styles.link}>
-                    <img src="/twitter.png" />
+                </li>
+                <li className={styles.link}>
+                    <a href="https://twitter.com/JuanEstivenCar2" target="_blank">
+                        <img src="/twitter.png" />
+                    </a>
                     <p>Twitter</p>
-                </a>
-                <a href="https://www.instagram.com/alisser2001" target="_blank" className={styles.link}>
-                    <img src="/instagram.png" />
+                </li>
+                <li className={styles.link}>
+                    <a href="https://www.instagram.com/alisser2001" target="_blank">
+                        <img src="/instagram.png" />
+                    </a>
                     <p>Instagram</p>
-                </a>
-            </div>
+                </li>
+            </ul>
         </div>
     )
 }

@@ -4,6 +4,7 @@
     justify-content: end;
     width: 100vw;
     height: 25vh;
+    max-height: 25vh;
     /*border-bottom: rgb(252, 204, 4) 5px solid;*/
     /*position: absolute;
     top: 75vh;
@@ -25,7 +26,7 @@
     all: unset;
     display: flex;
     align-items: center;
-    font-size: 10vw;
+    font-size: 11vw;
     height: 25vh;
     padding: 0px 100px;
     font-family: StreetHipster, ConcertOne;
@@ -39,6 +40,8 @@
     .lastNameContainer {
         font-size: 15vw;
         width: 100vw;
+        height: 25vh;
+        max-height: 25vh;
         justify-content: center;
         padding: 0px;
     }
@@ -48,6 +51,8 @@
     .lastNameContainer {
         font-size: 15vw;
         width: 100vw;
+        height: 25vh;
+        max-height: 25vh;
         justify-content: center;
         padding: 0px;
     }

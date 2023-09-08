@@ -19,7 +19,8 @@ export default function Projects({ }) {
     }
     return (
         <div className={styles.container}>
-            <img className={styles.buttonLeft} src="rowLeft.png" onClick={() => changeVisible("less")} />
+            {visible > 1 ? <img className={styles.buttonLeft} src="rowLeft.png" onClick={() => changeVisible("less")} /> : 
+            <img className={styles.buttonLeftMin} src="rowLeft.png"/>}
             <div className={styles.infoProjects} id="scrollProjects">
                 {projects.map((obj) => {
                     if (visible === obj.order) {
@@ -42,7 +43,8 @@ export default function Projects({ }) {
                 })
                 }
             </div>
-            <img className={styles.buttonRight} src="rowRight.png" onClick={() => changeVisible("up")} />
+            {visible < 7 ? <img className={styles.buttonRight} src="rowRight.png" onClick={() => changeVisible("up")} /> :
+            <img className={styles.buttonRightMax} src="rowRight.png"/>}
             <div className={styles.buttons}>
                 <img src="rowLeft.png" onClick={() => changeVisible("less")} />
                 <img src="rowRight.png" onClick={() => changeVisible("up")} />
