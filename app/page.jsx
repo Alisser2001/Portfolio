@@ -7,7 +7,6 @@ import { Title } from './components/Title';
 import AboutMe from './about/page';
 import Projects from './projects/page';
 import Contact from './contact/page';
-//import {ParticlesBackground} from './components/ParticlesBackground';
 
 export default function App ({ }) {
     const toTop = (e) => {
@@ -19,7 +18,6 @@ export default function App ({ }) {
             <Title/>
             <Name/>
             <LastName/>
-            {/*<ParticlesBackground/>*/}
             <AboutMe/>
             <Projects/>
             <Contact/>
