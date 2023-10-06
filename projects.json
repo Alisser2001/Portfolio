@@ -4,7 +4,7 @@
         "title": "Devs Learning",
         "description": "Aplicación web de servicios de E-Learning, realizada como proyecto final de SoyHenry. Hecha con TypeScript, React, NodeJs, Material UI, Redux, Express, Sequelize  y PosgreSQL",
         "type": "web",
-        "link": "https://devs-learning-5hal.vercel.app",
+        "link": "https://devslearning.vercel.app/siteOnMaintenance",
         "order": 1
     },
     {
