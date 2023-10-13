@@ -4,7 +4,7 @@
     flex-direction: row;
     width: 98vw;
     height: 100vh;
-    top: 25vh;
+    padding-top: 15vh;
     max-height: 100vh;
     align-items: center;
     /*border-bottom: rgb(252, 204, 4) 5px solid;*/
