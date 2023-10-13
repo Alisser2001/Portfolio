@@ -1,6 +1,5 @@
 .container {
     /*position: absolute;*/
-    top: 25vh;
     height: 100vh;
     max-height: 100vh;
     width: 100vw;
@@ -12,13 +11,13 @@
     animation: slideProjects 0.5s backwards;
 }
 
-.buttonLeft, .buttonRight, .buttonLeftMin, .buttonRightMax {
+.buttonLeft, .buttonRight, .buttonLeftMin, .buttonRightMax, .buttonLeftMinPC, .buttonRightMaxPC {
     width: 5vw;
     height: 10vh;
 }
 
 
-.buttonLeftMin, .buttonRightMax{
+.buttonLeftMin, .buttonRightMax, .buttonLeftMinPC, .buttonRightMaxPC{
     opacity: 0.5;
 }
 
@@ -180,12 +179,18 @@
 }
 
 @media(max-width: 900px) {
+    .buttonLeftMinPC{
+        display: none;
+    }
+    .buttonRightMaxPC{
+        display: none;
+    }
     .container {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 100vh;
-        max-height: 100vh;
+        height: 80vh;
+        max-height: 80vh;
     }
 
     .infoProjects {

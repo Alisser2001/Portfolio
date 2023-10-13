@@ -11,18 +11,18 @@ export const NavBar = () => {
             <h1 className={styles.title}>PORTAFOLIO</h1>
             <ul className={styles.options}>
                 <li className={styles.aboutLink}>
-                    <a href="/" className={styles.link} onClick={(e)=>scroll(e, 820)}>
+                    <a href="/" className={styles.link} onClick={(e)=>scroll(e, 0)}>
                         <img src="/hacker.png" className={styles.aboutImg} alt="toAbout" onClick={(e)=>{e.preventDefault()}}/>
                         <p className={styles.linkTitle}>About</p>
                     </a>
                 </li>
-                <li className={styles.projectsLink} onClick={(e)=>scroll(e, 1640)}>
+                <li className={styles.projectsLink} onClick={(e)=>scroll(e, 830)}>
                     <a href="/" className={styles.link}>
                         <img src="/innovacion.png" className={styles.projectsImg} alt="toProjects" onClick={(e)=>{e.preventDefault()}}/>
                         <p className={styles.linkTitle}>Projects</p>
                     </a>
                 </li>
-                <li className={styles.contactLink} onClick={(e)=>scroll(e, 2480)}>
+                <li className={styles.contactLink} onClick={(e)=>scroll(e, 1760)}>
                     <a href="/" className={styles.link}>
                         <img src="/correo-electronico.png" className={styles.contactImg} alt="toContact" onClick={(e)=>{e.preventDefault()}}/>
                         <p className={styles.linkTitle}>Contact</p>

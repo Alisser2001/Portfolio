@@ -1,5 +1,5 @@
 'use client';
-import React, { useState /*useRef, useEffect */ } from "react";
+import React, { useState } from "react";
 import styles from "./projects.module.css";
 import projects from "../../projects.json";
 
@@ -20,7 +20,7 @@ export default function Projects({ }) {
     return (
         <div className={styles.container}>
             {visible > 1 ? <img className={styles.buttonLeft} src="rowLeft.png" onClick={() => changeVisible("less")} /> : 
-            <img className={styles.buttonLeftMin} src="rowLeft.png"/>}
+            <img className={styles.buttonLeftMinPC} src="rowLeft.png"/>}
             <div className={styles.infoProjects} id="scrollProjects">
                 {projects.map((obj) => {
                     if (visible === obj.order) {
@@ -44,10 +44,12 @@ export default function Projects({ }) {
                 }
             </div>
             {visible < 7 ? <img className={styles.buttonRight} src="rowRight.png" onClick={() => changeVisible("up")} /> :
-            <img className={styles.buttonRightMax} src="rowRight.png"/>}
+            <img className={styles.buttonRightMaxPC} src="rowRight.png"/>}
             <div className={styles.buttons}>
-                <img src="rowLeft.png" onClick={() => changeVisible("less")} />
-                <img src="rowRight.png" onClick={() => changeVisible("up")} />
+                {visible > 1 ? <img src="rowLeft.png" onClick={() => changeVisible("less")} /> :
+                <img className={styles.buttonLeftMin} src="rowLeft.png"/>}
+                {visible < 7 ? <img src="rowRight.png" onClick={() => changeVisible("up")} /> :
+                <img className={styles.buttonRightMax} src="rowRight.png"/>}
             </div>
         </div>
     )

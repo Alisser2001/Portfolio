@@ -5,7 +5,9 @@
     justify-content: initial;
     color: white;
     /*background-color: #161616;*/
-    background-color: transparent;
+    position: fixed;
+    z-index: 10000;
+    background-color: #161616;
     margin: 0;
     /*border-bottom: rgb(252, 204, 4) 5px solid;*/
     /*position: absolute;*/
