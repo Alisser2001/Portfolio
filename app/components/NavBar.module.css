@@ -28,6 +28,10 @@
     font-family: StreetHipster, ConcertOne;
 }
 
+.title>span{
+    color: rgb(252, 204, 4);
+}
+
 .options {
     all: unset;
     display: flex;

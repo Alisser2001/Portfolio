@@ -8,7 +8,7 @@ export const NavBar = () => {
     }
     return (
         <nav className={styles.container}>
-            <h1 className={styles.title}>PORTAFOLIO</h1>
+            <h1 className={styles.title}><span>&lt;</span>ALIDEV<span>/&gt;</span></h1>
             <ul className={styles.options}>
                 <li className={styles.aboutLink}>
                     <a href="/" className={styles.link} onClick={(e)=>scroll(e, 0)}>

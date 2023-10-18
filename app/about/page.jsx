@@ -24,11 +24,11 @@ export default function AboutMe({ }) {
             </div>
             <div className={styles.info}>
                 <p className={styles.presentation}>
-                    Full Stack Developer con experiencia trabajando
-                    en lenguajes como JavaScript, TypeScript, Python y Java. Principalmente
-                    enfocado al desarrollo back-end, he participado en distintos proyectos
+                    Soy Estiven Muñoz, desarrollador web full stack con experiencia trabajando
+                    en lenguajes como JavaScript, TypeScript, C#, Python y Java. Principalmente
+                    enfocado al desarrollo back-end, he participado en diferentes proyectos
                     desarrollando funcionalidades CRUD para servidores web y en la creación de
-                    APIs de RESTful.
+                    APIs RESTful.
                 </p>
                 <ul className={styles.tecnologies} id="carousel-list">
                     <li><p>JavaScript</p></li>

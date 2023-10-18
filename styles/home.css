@@ -24,28 +24,9 @@
     /*overflow: hidden;*/
 }
 
-.toTop {
-    position: fixed;
-    width: 5vw;
-    height: 5vw;
-    top: 88vh;
-    left: 94vw;
-    cursor: pointer;
-}
-
-.toTop:hover {
-    transform: scale(1.1);
-}
-
 @media(max-width: 900px) {
     .home {
         height: 75vh;
         max-height: 75vh;
-    }
-}
-
-@media(max-width: 600px) {
-    .toTop {
-        display: none;
     }
 }
