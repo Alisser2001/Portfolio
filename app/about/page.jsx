@@ -18,7 +18,7 @@ export default function AboutMe({ }) {
                         <img src="/CV.png" className={styles.profileCV} />
                         <div className={styles.links}>
                             <a href="/CV.pdf" target="_blank">Go to CV</a>
-                            <a href="https://drive.google.com/drive/folders/1BB-DEmcK4UqsKDXK4J4J1O0Q3CAUAsM5?usp=sharing" target="_blank">Certificates</a>
+                            <a href="https://certificates-page.vercel.app/" target="_blank">Certificates</a>
                         </div>
                     </div>}
             </div>
