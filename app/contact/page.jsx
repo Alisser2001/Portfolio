@@ -9,33 +9,32 @@ export default function Contact({ }) {
     const { register, handleSubmit } = useForm();
     const { stateEmail, setStateEmail } = useState(0);
     const submitNewMessage = (data) => {
-        let responseStatus, responseText;
         emailJS(data).then(function (response) {
-            toast.success("El Email fue enviado con exito")
+            toast.success("Email was sent successfully")
         }, function (error) {
             setStateEmail(error.status);
-            toast.error("Algo salió mal, intentalo de nuevo")
+            toast.error("Something went wrong, try again")
         });
     }
     return (
         <div className={styles.container}>
             <Toaster position="bottom-right" expand={false} richColors />
             <div className={styles.contactInfo}>
-                <h1 className={styles.title}>Contáctame</h1>
+                <h1 className={styles.title}>Contact me</h1>
                 <form onSubmit={handleSubmit(submitNewMessage)} className={styles.formContact}>
                     <div className={styles.formName}>
-                        <label>Nombre</label>
+                        <label>Name</label>
                         <input type="text" {...register("user_name")} required={true} />
                     </div>
                     <div className={styles.formEmail}>
-                        <label>Gmail</label>
+                        <label>Email</label>
                         <input type="email" {...register("user_email")} required={true} />
                     </div>
                     <div className={styles.formMessage}>
-                        <label>Mensaje</label>
+                        <label>Message</label>
                         <textarea {...register("message")} required={true} />
                     </div>
-                    <input type="submit" className={styles.submit} />
+                    <input type="submit" className={styles.submit} value="Submit"/>
                 </form>
             </div>
             <ul className={styles.networkInfo}>

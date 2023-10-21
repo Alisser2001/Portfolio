@@ -31,12 +31,12 @@ export default function Projects({ }) {
                                     <div className={styles.containerInfo}>
                                         <h3 className={styles.projectTitle}>{obj.title}</h3>
                                         <p className={styles.projectDescription}>{obj.description}</p>
-                                        <a className={styles.projectLink} href={obj.link} target="_blank">{obj.type === "web" ? "Ir a la página" : "Ir al repositorio"}</a>
+                                        <a className={styles.projectLink} href={obj.link} target="_blank">{obj.type === "web" ? "Go to page" : "Go to repository"}</a>
                                     </div>
                                 </div>
                                 <h3 className={styles.projectTitleResponsive}>{obj.title}</h3>
-                                <p className={styles.projectDescriptionResponsive}>Presiona la imagen para más información</p>
-                                <a className={styles.projectLinkResponsive} href={obj.link} target="_blank">{obj.type === "web" ? "Ir a la página" : "Ir al repositorio"}</a>
+                                <p className={styles.projectDescriptionResponsive}>Click on the image for more information</p>
+                                <a className={styles.projectLinkResponsive} href={obj.link} target="_blank">{obj.type === "web" ? "Go to page" : "Go to repository"}</a>
                             </>
                         )
                     }
