@@ -72,7 +72,7 @@
 }
 
 .links>a:hover{
-    font-size: 1.4vw;
+    transform: scale(1.05);
 }
 
 .profileCV{
