@@ -16,7 +16,7 @@ export const NavBar = () => {
                         <p className={styles.linkTitle}>About</p>
                     </a>
                 </li>
-                <li className={styles.projectsLink} onClick={(e)=>scroll(e, 830)}>
+                <li className={styles.projectsLink} onClick={(e)=>scroll(e, 650)}>
                     <a href="/" className={styles.link}>
                         <img src="/innovacion.png" className={styles.projectsImg} alt="toProjects" onClick={(e)=>{e.preventDefault()}}/>
                         <p className={styles.linkTitle}>Projects</p>

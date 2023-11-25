@@ -12,7 +12,7 @@ export default function AboutMe({ }) {
             <div className={styles.profile}>
                 {profileView ? <>
                     <img src="/perfil.png" className={styles.profileImg} onMouseEnter={() => handleProfileView()} />
-                    <img src="/hand.png" className={styles.hand} />
+                    {/*<img src="/hand.png" className={styles.hand} />*/}
                 </>
                     : <div className={styles.CV} onMouseLeave={() => handleProfileView()}>
                         <img src="/CV.png" className={styles.profileCV} />
@@ -30,7 +30,8 @@ export default function AboutMe({ }) {
                 projects developing CRUD functionalities for web 
                 servers and creating RESTful APIs.
                 </p>
-                <ul className={styles.tecnologies} id="carousel-list">
+            </div>
+            <ul className={styles.tecnologies} id="carousel-list">
                     <li><p>JavaScript</p></li>
                     <li><p>TypeScript</p></li>
                     <li><p>Python</p></li>
@@ -51,8 +52,7 @@ export default function AboutMe({ }) {
                     <li><p>CSS</p></li>
                     <li><p>Git</p></li>
                     <li><p>Bash</p></li>
-                </ul>
-            </div>
+            </ul>
         </div>
     )
 }

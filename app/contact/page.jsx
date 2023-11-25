@@ -41,26 +41,26 @@ export default function Contact({ }) {
                 <li className={styles.link}>
                     <a href="https://github.com/Alisser2001" target="_blank">
                         <img src="/github.png" />
+                        <p>GitHub</p>
                     </a>
-                    <p>GitHub</p>
                 </li>
                 <li className={styles.link}>
                     <a href="https://www.linkedin.com/in/alisser2001" target="_blank">
                         <img src="/linkedin.png" />
+                        <p>LinkedIn</p>
                     </a>
-                    <p>LinkedIn</p>
                 </li>
                 <li className={styles.link}>
                     <a href="https://twitter.com/JuanEstivenCar2" target="_blank">
                         <img src="/twitter.png" />
+                        <p>Twitter</p>
                     </a>
-                    <p>Twitter</p>
                 </li>
                 <li className={styles.link}>
                     <a href="https://www.instagram.com/alisser2001" target="_blank">
                         <img src="/instagram.png" />
+                        <p>Instagram</p>
                     </a>
-                    <p>Instagram</p>
                 </li>
             </ul>
         </div>

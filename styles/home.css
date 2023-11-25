@@ -19,14 +19,6 @@
     box-sizing: border-box;
     font-family: ConcertOne, 'Open Sans', sans-serif;
     background-color: #161616;
-    height: 75vh;
-    max-height: 75vh;
+    height: auto;
     /*overflow: hidden;*/
-}
-
-@media(max-width: 900px) {
-    .home {
-        height: 75vh;
-        max-height: 75vh;
-    }
 }

@@ -7,11 +7,14 @@
 
 body {
     font-family: ConcertOne;
-    background-size: 100vw 150vh;
     margin: 0;
     padding: 0;
     background-color: #161616;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
 }
 
 body::-webkit-scrollbar {
@@ -42,16 +45,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 720px) {
-    body {
-        background-size: 160vw 100vh;
-        background-position-x: -25vw;
-        margin: 0;
-        padding: 0;
-        max-height: 100vh;
-        overflow-x: hidden;
-        overflow-y: auto;
-    }
-
     body::-webkit-scrollbar {
         background-color: transparent;
     }
