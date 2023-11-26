@@ -23,16 +23,16 @@ export default function Contact({ }) {
                 <h1 className={styles.title}>Contact me</h1>
                 <form onSubmit={handleSubmit(submitNewMessage)} className={styles.formContact}>
                     <div className={styles.formName}>
-                        <label>Name</label>
-                        <input type="text" {...register("user_name")} required={true} />
+                        <label for="username">Name</label>
+                        <input type="text" id="username" {...register("user_name")} required={true} />
                     </div>
                     <div className={styles.formEmail}>
-                        <label>Email</label>
-                        <input type="email" {...register("user_email")} required={true} />
+                        <label for="useremail">Email</label>
+                        <input type="email" id="useremail" {...register("user_email")} required={true} />
                     </div>
                     <div className={styles.formMessage}>
-                        <label>Message</label>
-                        <textarea {...register("message")} required={true} />
+                        <label for="message">Message</label>
+                        <textarea id="message" {...register("message")} required={true} />
                     </div>
                     <input type="submit" className={styles.submit} value="Submit"/>
                 </form>
@@ -40,27 +40,27 @@ export default function Contact({ }) {
             <ul className={styles.networkInfo}>
                 <li className={styles.link}>
                     <a href="https://github.com/Alisser2001" target="_blank">
-                        <img src="/github.png" />
+                        <img src="/github.png" alt="github"/>
+                        <span>GitHub</span>
                     </a>
-                    <p>GitHub</p>
                 </li>
                 <li className={styles.link}>
                     <a href="https://www.linkedin.com/in/alisser2001" target="_blank">
-                        <img src="/linkedin.png" />
+                        <img src="/linkedin.png" alt="linkedin"/>
+                        <span>LinkedIn</span>
                     </a>
-                    <p>LinkedIn</p>
                 </li>
                 <li className={styles.link}>
                     <a href="https://twitter.com/JuanEstivenCar2" target="_blank">
-                        <img src="/twitter.png" />
+                        <img src="/twitter.png" alt="twitter"/>
+                        <span>Twitter</span>
                     </a>
-                    <p>Twitter</p>
                 </li>
                 <li className={styles.link}>
                     <a href="https://www.instagram.com/alisser2001" target="_blank">
-                        <img src="/instagram.png" />
+                        <img src="/instagram.png" alt="instagram"/>
+                        <span>Instagram</span>
                     </a>
-                    <p>Instagram</p>
                 </li>
             </ul>
         </div>
