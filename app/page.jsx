@@ -1,8 +1,8 @@
 'use client';
 import "../styles/home.css";
-import AboutMe from './about/page';
-import Projects from './projects/page';
-import Contact from './contact/page';
+import AboutMe from './about/about';
+import Projects from './projects/projects';
+import Contact from './contact/contact';
 
 export default function App ({ }) {
     return (
