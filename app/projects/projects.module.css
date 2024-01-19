@@ -113,6 +113,20 @@
     font-size: 5em;
 }
 
+.projectNum{
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: last baseline;
+    width: 50vw;
+    max-width: 50vw;
+    height: 7%;
+    max-height: 7%;
+    color: white;
+    font-size: 2em;
+}
+
 .projectTitleResponsive {
     display: none;
 }
@@ -131,8 +145,8 @@
     align-items: center;
     width: 60%;
     max-width: 60%;
-    height: 50%;
-    max-height: 50%;
+    height: 40%;
+    max-height: 40%;
     color: white;
     font-size: 1.5em;
     margin: 0;

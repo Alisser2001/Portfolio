@@ -1,3 +1,10 @@
+@font-face {
+    font-family: ConcertOne;
+    src: url('../../fonts/ConcertOne-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
 .aboutContainer {
     all: unset;
     display: flex;
@@ -38,10 +45,16 @@
     border-radius: 5vw;
     color: #161616;
     background-color: rgb(252, 204, 4);
+    margin: 0 2vw;
 }
 
 .link:hover {
     transform: scale(1.05);
+}
+
+.option:hover{
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
 .profileCV {
@@ -99,6 +112,38 @@
     color: white;
 }
 
+.options{
+    all: unset;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    height: auto;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+.options>li, .options>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #161616;
+    width: 40%;
+    max-width: 40%;
+    height: 4vh;
+    max-height: 4vh;
+    font-size: 1.5em;
+    padding: 3px;
+    margin: 0.5vh 1vw;
+    background-color: rgb(252, 204, 4);
+    font-weight: 100;
+    border-radius: 5vw;
+}
+
 .tecnologies {
     all: unset;
     display: flex;
@@ -120,8 +165,8 @@
     justify-content: center;
     align-items: center;
     color: #161616;
-    width: 15%;
-    max-width: 15%;
+    width: 20%;
+    max-width: 20%;
     height: 4vh;
     max-height: 4vh;
     font-size: 1.5em;
@@ -129,11 +174,28 @@
     margin: 0.5vh 1vw;
     background-color: rgb(252, 204, 4);
     font-weight: 100;
+    border-radius: 5vw;
 }
 
-
-.tecnologies>li:nth-child(3n-1) {
+.backButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: #161616;
+    width: 5vw;
+    height: 10vh;
+    font-size: 1.5em;
+    padding: 3px;
+    margin: 1vh 84% 0 0;
+    font-weight: 100;
     border-radius: 5vw;
+    font-family: ConcertOne;
+    cursor: pointer;
+}
+
+.backButton:hover{
+    transform: scale(1.05);
 }
 
 
