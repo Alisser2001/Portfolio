@@ -29,10 +29,12 @@ export default function Projects({ }) {
                                 <img src={obj.img} className={styles.projectImg} alt="project" />
                                 <div className={styles.containerInfo}>
                                     <h3 className={styles.projectTitle}>{obj.title}</h3>
+                                    <h4 className={styles.projectNum}>{visible}/{projects.length}</h4>
                                     <p className={styles.projectDescription}>{obj.description}</p>
                                     <a className={styles.projectLink} href={obj.link} target="_blank">{obj.type === "web" ? "Go to page" : "Go to repository"}</a>
                                 </div>
                                 <h3 className={styles.projectTitleResponsive}>{obj.title}</h3>
+                                <h4 className={styles.projectNumResponsive}>{visible}/{projects.length}</h4>
                                 <p className={styles.projectDescriptionResponsive}>Click on the image for more information</p>
                                 <a className={styles.projectLinkResponsive} href={obj.link} target="_blank">{obj.type === "web" ? "Go to page" : "Go to repository"}</a>
                             </div>
