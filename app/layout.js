@@ -1,16 +1,15 @@
 import "../styles/global.css";
-import { NavBar } from './components/NavBar';
+import { NavBar } from './sections/navbar';
 
 export const metadata = {
-  title: 'AliDev',
-  description: 'Portafolio personal de Estiven Muñoz (AliDev)',
+  title: 'Alidev',
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/hacker.png" />
+        <link rel="icon" href="/Logo.png" />
       </head>
       <body>
         <NavBar />

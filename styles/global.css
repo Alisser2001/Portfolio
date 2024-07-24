@@ -1,18 +1,16 @@
-@font-face {
-    font-family: ConcertOne;
-    src: url('../fonts/ConcertOne-Regular.ttf') format('truetype');
-    font-style: normal;
-    font-weight: normal;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 body {
-    font-family: ConcertOne;
     margin: 0;
     padding: 0;
     background-color: #161616;
     overflow-x: hidden;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     height: auto;
 }
@@ -22,7 +20,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar:vertical {
-    width: 1vw;
+    width: 16px;
 }
 
 body::-webkit-scrollbar-track {
@@ -38,8 +36,8 @@ body::-webkit-scrollbar:horizontal {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: rgb(252, 204, 4);
+    background-color: rgb(255, 255, 255);
     border-radius: 20px;
-    border: 2px solid rgb(252, 204, 4);
+    border: 2px solid rgb(255, 255, 255);
     margin: 1vw;
 }
