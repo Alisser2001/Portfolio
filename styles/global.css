@@ -2,17 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    html {
+        @apply scroll-smooth;
+    }
+}
 
 body {
     margin: 0;
     padding: 0;
     background-color: #161616;
     overflow-x: hidden;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    height: auto;
 }
 
 body::-webkit-scrollbar {
