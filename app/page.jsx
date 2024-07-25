@@ -70,6 +70,7 @@ export default function App() {
                     <h1 className='font-bold text-4xl w-1/3 flex justify-center items-center'><span className='text-[#2E28A0] mr-5'>04.</span> Say Hello</h1>
                     <div className='h-1 w-2/3 bg-[#2E28A0] ml-5'></div>
                 </div>
+                <Contact/>
             </section>
             <a href="https://github.com/Alisser2001/Portfolio" target="_blank" className="flex flex-row w-1/2 h-auto justify-center items-center text-center my-5 text-[#2E28A0] font-bold text-lg">
                 Designed and Built by Alidev

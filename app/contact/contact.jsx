@@ -1,68 +1,49 @@
 'use client';
-import React, { useState } from "react";
-import styles from "./contact.module.css";
+import React from "react";
 import { useForm } from "react-hook-form";
 import emailJS from "../services/email";
-import { Toaster, toast } from 'sonner'
+import { toast } from 'sonner'
 
-export default function Contact({ }) {
+export default function Contact() {
     const { register, handleSubmit } = useForm();
-    const { stateEmail, setStateEmail } = useState(0);
     const submitNewMessage = (data) => {
         emailJS(data).then(function (response) {
-            toast.success("Email was sent successfully")
+            toast.success("Email was sent successfully");
         }, function (error) {
-            setStateEmail(error.status);
-            toast.error("Something went wrong, try again")
+            console.log(error)
+            toast.error("Something went wrong, try again");
         });
     }
     return (
-        <div className={styles.container}>
-            <Toaster position="bottom-right" expand={false} richColors />
-            <div className={styles.contactInfo}>
-                <h1 className={styles.title}>Contact me</h1>
-                <form onSubmit={handleSubmit(submitNewMessage)} className={styles.formContact}>
-                    <div className={styles.formName}>
-                        <label for="username">Name</label>
-                        <input type="text" id="username" {...register("user_name")} required={true} />
-                    </div>
-                    <div className={styles.formEmail}>
-                        <label for="useremail">Email</label>
-                        <input type="email" id="useremail" {...register("user_email")} required={true} />
-                    </div>
-                    <div className={styles.formMessage}>
-                        <label for="message">Message</label>
-                        <textarea id="message" {...register("message")} required={true} />
-                    </div>
-                    <input type="submit" className={styles.submit} value="Submit"/>
-                </form>
+        <form onSubmit={handleSubmit(submitNewMessage)} className="flex flex-row flex-wrap justify-center items-start w-full h-auto px-10">
+            <h1 className="flex flex-row justify-center items-center w-full h-auto text-4xl font-bold text-[#2E28A0] mb-16">
+                Get In Touch...
+            </h1>
+            <section className="flex flex-row w-full h-auto justify-center items-start flex-wrap">
+                <div className="flex flex-col justify-center items-start h-auto w-1/2 mb-5">
+                    <label htmlFor="username" className="flex felx-row justify-start items-center text-xl font-semibold h-auto text-[#2E28A0] mb-1" style={{ width: "95%" }}>Name</label>
+                    <input type="text" id="username" {...register("user_name")} required={true} placeholder="Your name" style={{ width: "95%" }} className="flex flex-row text-lg font-semibold h-auto py-2 px-3 text-black rounded-xl mb-5" />
+                    <label htmlFor="useremail" className="flex felx-row justify-start items-center text-xl font-semibold h-auto text-[#2E28A0] mb-1" style={{ width: "95%" }}>Email</label>
+                    <input type="email" id="useremail" {...register("user_email")} required={true} placeholder="Yourmail@company.com" style={{ width: "95%" }} className="flex flex-row text-lg font-semibold h-auto py-2 px-3 text-black rounded-xl" />
+                </div>
+                <section className="flex flex-row justify-end items-center w-1/2 mt-2">
+                    <p className="h-auto text-white text-xl font-semibold" style={{ width: "95%" }}>
+                        I am currently looking for new opportunities, and my inbox is always open to interesting conversations. If you have any proposals, questions, or simply want to say hello, I would be delighted to hear from you and will happily get back to you as soon as possible!                    </p>
+                </section>
+                <div className="flex flex-col justify-center items-start h-auto w-full mb-5">
+                    <label htmlFor="subject" className="flex felx-row justify-start items-center text-xl font-semibold h-auto text-[#2E28A0] mb-1" style={{ width: "100%" }}>Subject</label>
+                    <input type="text" id="subject" {...register("subject")} required={true} placeholder="Subject" style={{ width: "100%" }} className="flex flex-row text-lg font-semibold h-auto py-2 px-3 text-black rounded-xl resize-none" />
+                </div>
+                <div className="flex flex-col justify-center items-start h-auto w-full">
+                    <label htmlFor="message" className="flex felx-row justify-start items-center text-xl font-semibold h-auto text-[#2E28A0] mb-1" style={{ width: "100%" }}>Message</label>
+                    <textarea id="message" {...register("message")} required={true} rows={4} placeholder="How can i help you?" style={{ width: "100%" }} className="flex flex-row text-lg font-semibold h-auto py-2 px-3 text-black rounded-xl resize-none" />
+                </div>
+
+            </section>
+            <div className="w-full h-auto flex flex-row justify-center items-center mt-16">
+                <input type="submit" className="left-16 bg-[#161616] relative z-30 cursor-pointer flex justify-center items-center w-32 h-12 rounded-lg border-2 border-[#2E28A0] font-bold text-xl text-white transform transition duration-300 hover:-translate-x-1 hover:-translate-y-1" value="Submit" />
+                <div className="w-32 h-12 bg-[#2E28A0] z-0 relative rounded-lg right-16"></div>
             </div>
-            <ul className={styles.networkInfo}>
-                <li className={styles.link}>
-                    <a href="https://github.com/Alisser2001" target="_blank">
-                        <img src="/github.png" alt="github"/>
-                        <span>GitHub</span>
-                    </a>
-                </li>
-                <li className={styles.link}>
-                    <a href="https://www.linkedin.com/in/alisser2001" target="_blank">
-                        <img src="/linkedin.png" alt="linkedin"/>
-                        <span>LinkedIn</span>
-                    </a>
-                </li>
-                <li className={styles.link}>
-                    <a href="https://twitter.com/JuanEstivenCar2" target="_blank">
-                        <img src="/twitter.png" alt="twitter"/>
-                        <span>Twitter</span>
-                    </a>
-                </li>
-                <li className={styles.link}>
-                    <a href="https://www.instagram.com/alisser2001" target="_blank">
-                        <img src="/instagram.png" alt="instagram"/>
-                        <span>Instagram</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
+        </form>
     )
 }

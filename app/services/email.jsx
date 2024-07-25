@@ -12,6 +12,11 @@ export default async function emailJS(data) {
     inputGmail.value = data.user_email;
     inputGmail.name = "from_email";
     dataForm.appendChild(inputGmail);
+    let inputSubject = document.createElement("input");
+    inputSubject.type = "text";
+    inputSubject.value = data.subject;
+    inputSubject.name = "subject";
+    dataForm.appendChild(inputSubject);
     let inputMessage = document.createElement("input");
     inputMessage.type = "text";
     inputMessage.value = data.message;
