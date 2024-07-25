@@ -1,9 +1,13 @@
 "use client";
+import { useRef } from "react";
+import {useIsVisible} from "../../hooks/useIsVisible";
 
 export default function About() {
+    const refAbout = useRef();
+    const isVisibleAbout = useIsVisible(refAbout);
     return (
-        <section className='flex flex-col w-1/2 h-screen justify-center items-start text-white' id='about'>
-            <div className='flex flex-row w-full h-auto justify-end items-center px-10 mb-32'>
+        <section ref={refAbout} className={`flex flex-col w-1/2 h-screen justify-center items-start text-white opacity-0 ${isVisibleAbout ? 'animate-fade-bottom-y-4' : ''}`} id='about' style={{animationDelay: ".2"}}>
+            <div className={`flex flex-row w-full h-auto justify-end items-center px-10 mb-32  ${isVisibleAbout ? 'animate-fade-bottom-y-1' : ''}`}>
                 <div className='h-1 w-2/3 bg-[#2E28A0] mr-5'></div>
                 <h1 className='font-bold text-4xl w-1/3 flex justify-center items-center'><span className='text-[#2E28A0] mr-5'>01.</span> About Me</h1>
             </div>
