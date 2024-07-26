@@ -3,10 +3,6 @@ import useScrollDirection from "../../hooks/useScroll";
 
 export const NavBar = () => {
     const showNav = useScrollDirection();
-    const scroll = (e, value) => {
-        e.preventDefault();
-        window.scrollTo({ top: value, behavior: 'smooth' });
-    }
     return (
         <nav className={`flex flex-row w-full h-24 justify-start items-center transition-transform duration-300 fixed bg-[#161616] z-50 shadow-[0_10px_20px_-2px_#101010] ${showNav ? 'transform translate-y-0' : 'transform -translate-y-24'}`}>
             <div className="flex flex-row w-7/12 h-full justify-start items-center pl-5 animate-fade-1 opacity-0" style={{animationDelay: ".5s"}}>

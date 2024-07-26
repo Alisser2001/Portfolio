@@ -8,13 +8,13 @@ import Experience from './sections/experience';
 
 export default function App() {
     return (
-        <div className="flex flex-col w-full h-auto justify-center items-center relative">
+        <main className="flex flex-col w-full h-auto justify-center items-center relative">
             <Hero />
             <About />
             <Work />
             <Experience />
             <Contact />
             <Footer />
-        </div>
+        </main>
     );
 }

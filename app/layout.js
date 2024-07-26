@@ -5,7 +5,7 @@ import LeftInfo from "./components/leftInfo";
 import { Toaster } from "sonner";
 
 export const metadata = {
-  title: 'Alidev',
+  title: 'Alidev - Portfolio',
 }
 
 export default function RootLayout({ children }) {

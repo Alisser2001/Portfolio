@@ -31,6 +31,7 @@ module.exports = {
         "fade-bottom-y-2": "fade-bottom-y .5s linear forwards",
         "fade-bottom-y-3": "fade-bottom-y .7s linear forwards",
         "fade-bottom-y-4": "fade-bottom-y .9s linear forwards",
+        "fade-bottom-y-5": "fade-bottom-y 1.1s linear forwards",
         "fade-1": "fade .7s linear forwards"
       },
     },
