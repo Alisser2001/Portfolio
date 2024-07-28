@@ -2,52 +2,87 @@
     {
         "img": "/DevsLearning.jpg",
         "title": "Devs Learning",
-        "description": "E-Learning services web application, made as SoyHenry's final project. Made with TypeScript, React, NodeJs, Material UI, Redux, Express, Sequelize and PosgreSQL",
-        "type": "web",
+        "description": "E-Learning services web application, made as SoyHenry's final project. Made with TypeScript, React, NodeJs, Material UI, Redux, Express, Sequelize and PostgreSQL",
+        "repo": "https://github.com/riverofrancisco/DL",
         "link": "https://devslearning.vercel.app/",
-        "order": 1
+        "techs": [
+            "Typescript",
+            "React",
+            "Express",
+            "PostgreSQL"
+        ]
     },
     {
         "img": "/DogsPage.jpg",
         "title": "The Dogs Page",
         "description": "Informative website about dog breeds, made as an individual project by SoyHenry. Made with JavaScript, React, NodeJs, Redux, CSS3, Express, Sequelize and PosgreSQL",
-        "type": "web",
+        "repo": "https://github.com/Alisser2001/Dogs-Page-Deploy",
         "link": "https://dogs-page-deploy.vercel.app",
-        "order": 2
-    },{
+        "techs": [
+            "Javascript",
+            "React",
+            "Express",
+            "PostgreSQL"
+        ]
+    },
+    {
         "img": "/WeatherApp.jpg",
         "title": "Weather App",
         "description": "Web application that provides the user with weather data about the place he/she consults. Made with JavaScript, React, NodeJs, Redux, CSS3 and the OpenWeather API",
-        "type": "web",
+        "repo": "https://github.com/Alisser2001/Weather-App-Deploy",
         "link": "https://weather-app-deploy-blue.vercel.app",
-        "order": 3
-    },{
+        "techs": [
+            "Javascript",
+            "React",
+            "Redux",
+            "CSS"
+        ]
+    },
+    {
         "img": "/TranslateClone.jpg",
         "title": "Translate Clone",
         "description": "Web application that tries to mimic the design and functionality of Google Translate. Made with ViteJs, using TypeScript with SWC, pure CSS, React and Google Translate API",
-        "type": "web",
+        "repo": "https://github.com/Alisser2001/Clone-Google-Translate",
         "link": "https://clone-google-translate.vercel.app/",
-        "order": 4
-    },{
+        "techs": [
+            "Typescript",
+            "React",
+            "ViteJs",
+            "CSS"
+        ]
+    },
+    {
         "img": "/FlickVerse.jpg",
         "title": "FlickVerse",
         "description": "Web application for rating movies and series. Developed in TypeScript, with a backend in NestJs with TypeORM and PosgreSQL, and a frontend in ViteJs with SWC, React, Redux and CSS",
-        "type": "repo",
-        "link": "https://github.com/Alisser2001/Movies-Project.git/",
-        "order": 5
-    },{
+        "repo": "https://github.com/Alisser2001/Movies-Project",
+        "techs": [
+            "Typescript",
+            "NestJs",
+            "ViteJs",
+            "React"
+        ]
+    },
+    {
         "img": "/COIL.jpg",
         "title": "Videojuego COIL",
         "description": "Video game made in Java with Maven, under the COIL work approach, which consists of several basic learning mini-games about concepts in the English language",
-        "type": "repo",
-        "link": "https://github.com/Alisser2001/Proyecto-COIL.git/",
-        "order": 6
-    },{
+        "repo": "https://github.com/Alisser2001/Proyecto-COIL",
+        "techs": [
+            "Java",
+            "Maven",
+            "POO"
+        ]
+    },
+    {
         "img": "/Connect4.jpg",
         "title": "Connect4",
         "description": "Video game made in ASP.NET with Razor Pages and C#, simulates a web version of the famous board game Connect4, with the possibility of playing against the machine or another person",
-        "type": "repo",
-        "link": "https://github.com/Alisser2001/ConnectFour.git/",
-        "order": 7
+        "repo": "https://github.com/Alisser2001/ConnectFour",
+        "techs": [
+            "C#",
+            "ASP.NET",
+            "Razor"
+        ]
     }
 ]
