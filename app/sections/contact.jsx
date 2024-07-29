@@ -19,7 +19,7 @@ export default function Contact() {
         });
     }
     return (
-        <section ref={refAbout} className={`flex flex-col w-1/2 h-screen justify-center items-start text-white opacity-0 ${isVisibleAbout ? 'animate-fade-bottom-y-4' : ''}`} style={{animationDelay: ".2"}} id='contact'>
+        <section ref={refAbout} className={`flex flex-col w-1/2 min-h-screen h-auto justify-center items-start text-white opacity-0 ${isVisibleAbout ? 'animate-fade-bottom-y-4' : ''}`} style={{animationDelay: ".2"}} id='contact'>
             <div className='flex flex-row w-full h-auto justify-end items-center px-10 mb-32'>
                 <h1 className='font-bold text-4xl w-1/3 flex justify-center items-center'><span className='text-[#2E28A0] mr-5'>04.</span> Say Hello</h1>
                 <div className='h-1 w-2/3 bg-[#2E28A0] ml-5'></div>

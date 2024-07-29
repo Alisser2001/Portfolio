@@ -2,7 +2,7 @@
 
 export default function LeftInfo() {
     return (
-        <section className="flex flex-col justify-end items-start w-1/4 fixed right-3/4 pl-16 z-50 mt-24 animate-fade-1 opacity-0" style={{ height: "90%", animationDelay: "1s" }}>
+        <section className="hidden md:flex flex-col justify-end items-start w-1/4 fixed right-3/4 pl-16 z-50 mt-24 animate-fade-1 opacity-0" style={{ height: "90%", animationDelay: "1s" }}>
             <a className="w-auto h-auto flex justify-center items-center" href="https://www.facebook.com/Alisser2001/">
                 <img src="/brand-facebook.png" alt="facebook" className="h-10 w-10 mb-5 cursor-pointer transform transition duration-300 hover:-translate-y-1" />\
             </a>
