@@ -1,6 +1,6 @@
 [
     {
-        "img": "/DevsLearning.jpg",
+        "img": "/InverJara.png",
         "title": "InverJara",
         "description": "E-Learning services web application, made as SoyHenry's final project. Made with TypeScript, React, NodeJs, Material UI, Redux, Express, Sequelize and PostgreSQL",
         "repo": "https://github.com/riverofrancisco/DL",
@@ -13,7 +13,7 @@
         ]
     },
     {
-        "img": "/DevsLearning.jpg",
+        "img": "/DevsLearning.png",
         "title": "Devs Learning",
         "description": "E-Learning services web application, made as SoyHenry's final project. Made with TypeScript, React, NodeJs, Material UI, Redux, Express, Sequelize and PostgreSQL",
         "repo": "https://github.com/riverofrancisco/DL",
@@ -26,7 +26,7 @@
         ]
     },
     {
-        "img": "/DevsLearning.jpg",
+        "img": "/InverJara.png",
         "title": "Trip Boys Gang",
         "description": "Web application that provides the user with weather data about the place he/she consults. Made with JavaScript, React, NodeJs, Redux, CSS3 and the OpenWeather API",
         "repo": "https://github.com/Alisser2001/Weather-App-Deploy",
@@ -39,7 +39,7 @@
         ]
     },
     {
-        "img": "/DevsLearning.jpg",
+        "img": "/InverJara.png",
         "title": "Translate Clone",
         "description": "Web application that tries to mimic the design and functionality of Google Translate. Made with ViteJs, using TypeScript with SWC, pure CSS, React and Google Translate API",
         "repo": "https://github.com/Alisser2001/Clone-Google-Translate",
@@ -52,7 +52,7 @@
         ]
     },
     {
-        "img": "/DevsLearning.jpg",
+        "img": "/InverJara.png",
         "title": "Weather App",
         "description": "Web application that tries to mimic the design and functionality of Google Translate. Made with ViteJs, using TypeScript with SWC, pure CSS, React and Google Translate API",
         "repo": "https://github.com/Alisser2001/Clone-Google-Translate",

@@ -11,25 +11,25 @@ export default function Work() {
     const refAbout = useRef();
     const isVisibleAbout = useIsVisible(refAbout);
     return (
-        <section ref={refAbout} className={`pt-28 flex flex-col w-full px-10 lg:px-0 lg:pr-48 lg:w-5/6 text-white justify-center items-start opacity-0 ${isVisibleAbout ? 'animate-fade-bottom-y-4' : ''}`} style={{ animationDelay: ".2" }} id='work'>
+        <section ref={refAbout} className={`pt-28 flex flex-col w-full px-5 lg:px-0 lg:pr-48 lg:w-5/6 text-white justify-center items-start opacity-0 ${isVisibleAbout ? 'animate-fade-bottom-y-4' : ''}`} style={{ animationDelay: ".2" }} id='work'>
             <Index />
             <ul className="flex flex-col w-full h-auto justify-center items-start">
                 {projects.map((obj, idx) => {
                     return (
                         <li
-                            className={`flex flex-row items-center justify-center w-full h-auto mb-32 relative`}
+                            className={`flex flex-row items-center justify-start md:justify-center w-full h-auto mb-40 relative`}
                             style={{ animationDelay: ".2" }}
                             key={idx}
                         >
                             <BackImage idx={idx} obj={obj} />
-                            <a href={obj.link ? obj.link : obj.repo} target="_blank" className={`w-[90%] flex flex-col justify-center items-center mt-60 md:mt-0 mb-10 md:mb-0 ${idx % 2 === 0 ? 'md:items-end' : 'md:items-start'} ${idx % 2 === 0 ? '2xl:mr-72' : '2xl:ml-72'} z-20 max-h-96 h-auto absolute cursor-pointer transform transition duration-300 hover:-translate-y-1`}>
-                                <div className="flex flex-col justify-center items-center text-base md:text-lg font-semibold text-white h-auto px-5 md:px-10 py-5 rounded-md bg-[#242424] w-full md:w-[500px]">
+                            <div className={`flex flex-row ${idx % 2 === 0 ? 'justify-end' : 'justify-start'} mt-52 md:mt-0 mb-10 md:mb-0 z-20 max-h-96 h-auto absolute w-full md:w-[90%] ${idx % 2 === 0 ? 'xl:pr-10 2xl:pr-40' : 'xl:pl-10 2xl:pl-40'}`}>
+                                <span className={`flex flex-col justify-center ${idx % 2 === 0 ? 'md:items-start' : 'md:items-end'} text-base md:text-lg font-semibold text-white h-auto px-5 md:px-10 py-5 rounded-md bg-[#242424] w-[90%] md:w-[550px] 2xl:w-[750px]`}>
                                     <h1 className="flex flex-row justify-start w-full items-center text-2xl md:text-4xl text-[#2E28A0] font-bold mb-5">{obj.title}</h1>
                                     {obj.description}
                                     <Tecnologies obj={obj} />
                                     <Links idx={idx} obj={obj} />
-                                </div>
-                            </a>
+                                </span>
+                            </div>
                         </li>
                     )
                 })
