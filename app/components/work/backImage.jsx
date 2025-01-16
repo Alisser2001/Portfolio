@@ -2,11 +2,8 @@
 
 export default function BackImage({idx, obj}) {
     return (
-        <div className={`w-full justify-center ${idx % 2 === 0 ? 'md:mr-72' : 'md:ml-72'} rounded-sm z-10`}
-            style={{ width: "550px", height: "350px" }}>
-            <img src={obj.img} alt="project"
-                className="rounded-sm 2xl:scale-110 h-[250px] md:h-[350px]"
-                style={{ width: "550px" }} />
+        <div className={`w-full md:w-[90%] flex flex-row ${idx % 2 === 0 ? 'justify-start' : 'justify-end'} rounded-sm z-10 mr-0 ml-0`}>
+            <img src={obj.img} alt="project" className="rounded-md 2xl:scale-110 h-[250px] md:h-[350px] w-[90%] md:w-[550px]"/>
         </div>
     )
 }
