@@ -1,0 +1,57 @@
+[
+    {
+        "company": "InverJara",
+        "role": "Fullstack Developer",
+        "start_date": "January 2024",
+        "end_date": "June 2024",
+        "responsibilities": [
+            "Developed, maintained, and shipped production code for client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery.",
+            "Performed quality assurance tests on various sites to ensure cross-browser compatibility and mobile responsiveness.",
+            "Worked with clients including JetBlue, Lovesac, U.S. Cellular, and the U.S. Department of Defense."
+        ]
+    },
+    {
+        "company": "SIU",
+        "role": "Programming Assistant",
+        "start_date": "January 2024",
+        "end_date": "Currently",
+        "responsibilities": [
+            "Developed, maintained, and shipped production code for client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery.",
+            "Performed quality assurance tests on various sites to ensure cross-browser compatibility and mobile responsiveness.",
+            "Worked with clients including JetBlue, Lovesac, U.S. Cellular, and the U.S. Department of Defense."
+        ]
+    },
+    {
+        "company": "TripBoysGang",
+        "role": "Fullstack Developer",
+        "start_date": "March 2024",
+        "end_date": "July 2024",
+        "responsibilities": [
+            "Developed, maintained, and shipped production code for client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery.",
+            "Performed quality assurance tests on various sites to ensure cross-browser compatibility and mobile responsiveness.",
+            "Worked with clients including JetBlue, Lovesac, U.S. Cellular, and the U.S. Department of Defense."
+        ]
+    },
+    {
+        "company": "DevsLearning",
+        "role": "Fullstack Developer",
+        "start_date": "June 2022",
+        "end_date": "November 2022",
+        "responsibilities": [
+            "Developed, maintained, and shipped production code for client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery.",
+            "Performed quality assurance tests on various sites to ensure cross-browser compatibility and mobile responsiveness.",
+            "Worked with clients including JetBlue, Lovesac, U.S. Cellular, and the U.S. Department of Defense."
+        ]
+    },
+    {
+        "company": "SENA",
+        "role": "Systems Technician",
+        "start_date": "January 2020",
+        "end_date": "June 2020",
+        "responsibilities": [
+            "Developed, maintained, and shipped production code for client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery.",
+            "Performed quality assurance tests on various sites to ensure cross-browser compatibility and mobile responsiveness.",
+            "Worked with clients including JetBlue, Lovesac, U.S. Cellular, and the U.S. Department of Defense."
+        ]
+    }
+]

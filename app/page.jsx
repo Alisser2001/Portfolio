@@ -8,7 +8,7 @@ import Experience from './sections/experience';
 
 export default function App() {
     return (
-        <main className="flex flex-col w-full h-auto justify-center items-center">
+        <main className="flex flex-col w-full h-auto justify-center items-end">
             <Hero />
             <About />
             <Work />
