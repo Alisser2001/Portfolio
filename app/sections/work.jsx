@@ -23,10 +23,10 @@ export default function Work() {
                         >
                             <BackImage idx={idx} obj={obj} />
                             <div className={`flex flex-row ${idx % 2 === 0 ? 'justify-end' : 'justify-start'} mt-52 md:mt-0 mb-10 md:mb-0 z-20 max-h-96 h-auto absolute w-full md:w-[90%] ${idx % 2 === 0 ? 'xl:pr-10 2xl:pr-40' : 'xl:pl-10 2xl:pl-40'}`}>
-                                <span className={`flex flex-col justify-center ${idx % 2 === 0 ? 'md:items-start' : 'md:items-end'} text-base md:text-lg font-semibold text-white h-auto px-5 md:px-10 py-5 rounded-md bg-[#242424] w-[90%] md:w-[550px] 2xl:w-[750px]`}>
-                                    <h1 className="flex flex-row justify-start w-full items-center text-2xl md:text-4xl text-[#2E28A0] font-bold mb-5">{obj.title}</h1>
-                                    {obj.description}
-                                    <Tecnologies obj={obj} />
+                                <span className={`flex flex-col justify-center text-base md:text-lg font-semibold text-white h-auto px-5 md:px-10 py-5 rounded-md bg-[#242424] w-[90%] md:w-[550px] 2xl:w-[750px]`}>
+                                    <h1 className={`flex flex-row w-full ${idx % 2 === 0 ? 'justify-end' : 'justify-start'} items-center text-2xl md:text-4xl text-[#2E28A0] font-bold mb-5`}>{obj.title}</h1>
+                                    <p className={`w-full flex flex-row ${idx % 2 === 0 ? 'text-end' : 'text-start'} items-center`}>{obj.description}</p>
+                                    <Tecnologies obj={obj} idx={idx}/>
                                     <Links idx={idx} obj={obj} />
                                 </span>
                             </div>
