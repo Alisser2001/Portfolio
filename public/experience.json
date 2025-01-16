@@ -5,9 +5,9 @@
         "start_date": "January 2024",
         "end_date": "June 2024",
         "responsibilities": [
-            "Developed, maintained, and shipped production code for client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery.",
-            "Performed quality assurance tests on various sites to ensure cross-browser compatibility and mobile responsiveness.",
-            "Worked with clients including JetBlue, Lovesac, U.S. Cellular, and the U.S. Department of Defense."
+            "Developed and deployed a web application using Next.js and JavaScript, integrating NextAuth for authentication and Prisma with PostgreSQL hosted on Vercel.",
+            "Implemented interactive data visualization features, including dynamic charts, tables, and filters for financial analysis.",
+            "Enabled data export capabilities in multiple formats, such as CSV, Excel, and PDF, enhancing user functionality."
         ]
     },
     {
@@ -16,9 +16,9 @@
         "start_date": "January 2024",
         "end_date": "Currently",
         "responsibilities": [
-            "Developed, maintained, and shipped production code for client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery.",
-            "Performed quality assurance tests on various sites to ensure cross-browser compatibility and mobile responsiveness.",
-            "Worked with clients including JetBlue, Lovesac, U.S. Cellular, and the U.S. Department of Defense."
+            "Assisted in the development of applications for the Research University Center (SIU) as a Programming Assistant in the Academic Stimulus Program at UdeA, focusing on backend development with Spring Boot.",
+            "Contributed to the implementation of cloud-based solutions using AWS to enhance system capabilities.",
+            "Provided technical support for network infrastructure and equipment, ensuring system operability and reliability."
         ]
     },
     {
@@ -27,9 +27,9 @@
         "start_date": "March 2024",
         "end_date": "July 2024",
         "responsibilities": [
-            "Developed, maintained, and shipped production code for client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery.",
-            "Performed quality assurance tests on various sites to ensure cross-browser compatibility and mobile responsiveness.",
-            "Worked with clients including JetBlue, Lovesac, U.S. Cellular, and the U.S. Department of Defense."
+            "Contributed to the development of an e-commerce platform for TripBoysGang, utilizing Next.js and TypeScript for the frontend and NestJS with PostgreSQL for the backend.",
+            "Managed containerization and deployment using Docker and Amazon EC2 for scalable application hosting.",
+            "Integrated Amazon S3 for high-resolution image storage and efficient asset management."
         ]
     },
     {
@@ -38,9 +38,9 @@
         "start_date": "June 2022",
         "end_date": "November 2022",
         "responsibilities": [
-            "Developed, maintained, and shipped production code for client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery.",
-            "Performed quality assurance tests on various sites to ensure cross-browser compatibility and mobile responsiveness.",
-            "Worked with clients including JetBlue, Lovesac, U.S. Cellular, and the U.S. Department of Defense."
+            "Contributed to the development of Devs Learning, an e-learning platform for online course sales, using React and TypeScript with Material-UI for the frontend.",
+            "Developed backend functionality with Node.js, Express, Sequelize, and PostgreSQL, ensuring efficient data handling.",
+            "Implemented state management with Redux and collaborated in an agile team environment."
         ]
     },
     {
@@ -49,9 +49,9 @@
         "start_date": "January 2020",
         "end_date": "June 2020",
         "responsibilities": [
-            "Developed, maintained, and shipped production code for client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery.",
-            "Performed quality assurance tests on various sites to ensure cross-browser compatibility and mobile responsiveness.",
-            "Worked with clients including JetBlue, Lovesac, U.S. Cellular, and the U.S. Department of Defense."
+            "Specialized in diagnosing telecommunications networks and maintaining equipment and servers during my internship as a Systems Technician.",
+            "Performed tasks such as fault identification, device configuration, and troubleshooting connectivity issues.",
+            "Conducted preventive and corrective maintenance to ensure optimal system performance."
         ]
     }
 ]

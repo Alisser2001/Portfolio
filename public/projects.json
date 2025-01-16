@@ -2,65 +2,65 @@
     {
         "img": "/InverJara.png",
         "title": "InverJara",
-        "description": "E-Learning services web application, made as SoyHenry's final project. Made with TypeScript, React, NodeJs, Material UI, Redux, Express, Sequelize and PostgreSQL",
-        "repo": "https://github.com/riverofrancisco/DL",
-        "link": "https://devslearning.vercel.app/",
+        "description": "Aplicación web para gestionar y analizar datos financieros. Permite cargar información, visualizar gráficos interactivos, tablas dinámicas y exportar datos en varios formatos. ",
+        "repo": "https://github.com/Alisser2001/InverJaraClone",
+        "link": "https://inver-jara.vercel.app",
         "techs": [
-            "Typescript",
-            "React",
-            "Express",
+            "Javascript",
+            "NextJs",
+            "Prisma",
             "PostgreSQL"
         ]
     },
     {
         "img": "/DevsLearning.png",
         "title": "Devs Learning",
-        "description": "E-Learning services web application, made as SoyHenry's final project. Made with TypeScript, React, NodeJs, Material UI, Redux, Express, Sequelize and PostgreSQL",
+        "description": "Plataforma para vender y tomar cursos online, con funcionalidades como gestión de usuarios, catálogo de cursos y diseño responsivo. Ideal para aprendizaje en línea.",
         "repo": "https://github.com/riverofrancisco/DL",
-        "link": "https://devslearning.vercel.app/",
+        "link": "https://devslearning.vercel.app",
         "techs": [
             "Typescript",
             "React",
-            "Express",
+            "Sequelize",
             "PostgreSQL"
         ]
     },
     {
-        "img": "/InverJara.png",
+        "img": "/TripBoysGang.png",
         "title": "Trip Boys Gang",
-        "description": "Web application that provides the user with weather data about the place he/she consults. Made with JavaScript, React, NodeJs, Redux, CSS3 and the OpenWeather API",
+        "description": "Tienda en línea para TripBoysGang que permite gestionar productos, realizar pedidos y manejar imágenes de alta calidad, ideal para e-commerce.",
+        "repo": "https://github.com/Alisser2001/TBG-Backend",
+        "link": "https://tripboysgang.vercel.app",
+        "techs": [
+            "Typescript",
+            "NextJs",
+            "NestJs",
+            "Tailwind"
+        ]
+    },
+    {
+        "img": "/TranslateClone.png",
+        "title": "Translate Clone",
+        "description": "Herramienta web que replica la funcionalidad de Google Translate, permitiendo traducir texto en tiempo real con un diseño sencillo y eficiente.",
+        "repo": "https://github.com/Alisser2001/Clone-Google-Translate",
+        "link": "https://clone-google-translate.vercel.app",
+        "techs": [
+            "Typescript",
+            "React",
+            "ViteJs",
+            "Tailwind"
+        ]
+    },
+    {
+        "img": "/WeatherApp.png",
+        "title": "Weather App",
+        "description": "Aplicación que ofrece información del clima en tiempo real para cualquier ubicación, con una interfaz intuitiva y diseño adaptable a dispositivos móviles.",
         "repo": "https://github.com/Alisser2001/Weather-App-Deploy",
         "link": "https://weather-app-deploy-blue.vercel.app",
         "techs": [
             "Javascript",
             "React",
             "Redux",
-            "CSS"
-        ]
-    },
-    {
-        "img": "/InverJara.png",
-        "title": "Translate Clone",
-        "description": "Web application that tries to mimic the design and functionality of Google Translate. Made with ViteJs, using TypeScript with SWC, pure CSS, React and Google Translate API",
-        "repo": "https://github.com/Alisser2001/Clone-Google-Translate",
-        "link": "https://clone-google-translate.vercel.app/",
-        "techs": [
-            "Typescript",
-            "React",
-            "ViteJs",
-            "CSS"
-        ]
-    },
-    {
-        "img": "/InverJara.png",
-        "title": "Weather App",
-        "description": "Web application that tries to mimic the design and functionality of Google Translate. Made with ViteJs, using TypeScript with SWC, pure CSS, React and Google Translate API",
-        "repo": "https://github.com/Alisser2001/Clone-Google-Translate",
-        "link": "https://clone-google-translate.vercel.app/",
-        "techs": [
-            "Typescript",
-            "React",
-            "ViteJs",
             "CSS"
         ]
     }
