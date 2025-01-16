@@ -37,7 +37,6 @@ export default function Form() {
                     <label htmlFor="message" className="flex felx-row justify-start items-center text-xl font-semibold h-auto text-[#2E28A0] mb-1" style={{ width: "100%" }}>Message</label>
                     <textarea id="message" {...register("message")} required={true} rows={4} placeholder="How can i help you?" style={{ width: "100%" }} className="flex flex-row text-lg font-semibold h-auto py-2 px-3 text-black rounded-xl resize-none" />
                 </div>
-
             </section>
             <div className="w-full h-auto flex flex-row justify-center items-center mt-16">
                 <input type="submit" className="bg-[#161616] absolute z-30 cursor-pointer flex justify-center items-center w-32 h-12 rounded-lg border-2 border-[#2E28A0] font-bold text-xl text-white transform transition duration-300 hover:-translate-x-1 hover:-translate-y-1" value="Submit" />

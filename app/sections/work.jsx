@@ -19,7 +19,7 @@ export default function Work() {
                         <li
                             className={`flex flex-row items-center justify-start md:justify-center w-full h-auto mb-40 relative`}
                             style={{ animationDelay: ".2" }}
-                            key={idx}
+                            key={idx + Math.random()*(1000000-1)+1}
                         >
                             <BackImage idx={idx} obj={obj} />
                             <div className={`flex flex-row ${idx % 2 === 0 ? 'justify-end' : 'justify-start'} mt-52 md:mt-0 mb-10 md:mb-0 z-20 max-h-96 h-auto absolute w-full md:w-[90%] ${idx % 2 === 0 ? 'xl:pr-10 2xl:pr-40' : 'xl:pl-10 2xl:pl-40'}`}>
