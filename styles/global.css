@@ -13,6 +13,7 @@ body {
     padding: 0;
     background-color: #161616;
     overflow-x: hidden;
+    font-family: "JetBrains Mono", "Fira Code", "monospace";
 }
 
 body::-webkit-scrollbar {
@@ -36,9 +37,9 @@ body::-webkit-scrollbar:horizontal {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: rgb(255, 255, 255);
+    background-color: #6a6a6a;
     border-radius: 20px;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid #6a6a6a;
     margin: 1vw;
 }
 
@@ -63,9 +64,9 @@ textarea::-webkit-scrollbar:horizontal {
 }
 
 textarea::-webkit-scrollbar-thumb {
-    background-color: rgb(255, 255, 255);
+    background-color: #6a6a6a;
     border-radius: 20px;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid #6a6a6a;
     margin: 1vw;
     cursor:default;
 }

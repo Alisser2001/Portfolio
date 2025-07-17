@@ -2,9 +2,12 @@
 
 export default function Index() {
     return (
-        <div className='flex flex-row w-full h-auto justify-end items-center mb-16'>
-            <div className='hidden md:flex h-1 w-1/3 md:w-3/5 bg-[#2E28A0]'></div>
-            <h1 className='font-bold text-2xl xl:text-3xl w-full md:w-2/5 flex justify-center items-center'><span className='text-[#2E28A0] mr-5'>03.</span> Where I’ve Worked</h1>
+        <div className="flex items-center mb-12 w-full">
+            <h2 className="text-3xl font-bold text-gray-100">
+                <span className="text-blue-400 font-mono mr-4">03.</span>
+                Where I’ve Worked
+            </h2>
+            <div className="flex-1 h-px bg-blue-400 ml-8"></div>
         </div>
     )
 }

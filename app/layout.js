@@ -1,6 +1,5 @@
 import "../styles/global.css";
 import NavBar from './sections/navbar';
-import LeftInfo from "./components/layout/leftInfo";
 import { Toaster } from "sonner";
 
 export const metadata = {
@@ -16,7 +15,6 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <NavBar />
-        <LeftInfo />
         {children}
         <Toaster position="bottom-right" expand={false} richColors />
       </body>

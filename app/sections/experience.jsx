@@ -17,7 +17,7 @@ export default function Experience() {
         setActualJob(newActualJob);
     }
     return (
-        <section ref={refAbout} className={`pt-28 flex flex-col w-full px-10 lg:px-0 lg:pr-48 lg:w-5/6 justify-center items-start text-white opacity-0 ${isVisibleAbout ? 'animate-fade-bottom-y-4' : ''}`} style={{ animationDelay: ".2" }} id='experience'>
+        <section ref={refAbout} className={`flex flex-col w-full px-5 pt-8 lg:pt-0 lg:px-0 lg:w-5/6 min-h-screen text-white justify-center items-center opacity-0 ${isVisibleAbout ? 'animate-fade-bottom-y-4' : ''}`} style={{ animationDelay: ".2" }} id='experience'>
             <Index/>
             <div className="flex flex-col md:flex-row justify-between items-start w-full h-auto">
                 <Options experience={experience} handleActualJob={handleActualJob} actualJob={actualJob}/>

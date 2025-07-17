@@ -6,7 +6,7 @@ export default function Tecnologies({ obj, idx }) {
             {obj.techs.map((tec, idx2) => {
                 return (
                     <li className={`${idx % 2 === 0 ? 'ml-5' : 'mr-5'} flex flex-row w-auto h-8 justify-center items-center text-sm font-bold`} key={idx2 + Math.random()*(1000000-1)+1}>
-                        <span className='mr-2 border-l-[8px] border-l-[#2E28A0] border-y-[4px] border-y-transparent border-solid'></span>{tec}
+                        <span className='mr-2 border-l-[8px] border-l-blue-400 border-y-[4px] border-y-transparent border-solid'></span>{tec}
                     </li>
                 )
             })}

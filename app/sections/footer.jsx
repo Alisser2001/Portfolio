@@ -2,8 +2,15 @@
 
 export default function Footer() {
     return (
-        <a href="https://github.com/Alisser2001/Portfolio" target="_blank" className="2xl:pl-[6.5%] xl:pl-[2%] flex flex-row w-full h-auto justify-center items-center text-center my-5 text-[#2E28A0] font-bold text-lg transform transition duration-300 hover:-translate-y-1">
-            Designed and Built by Alidev
-        </a>
+        <footer className="py-8 px-4 sm:px-6 lg:px-8 border-t border-gray-800">
+            <div className="max-w-6xl mx-auto">
+                <div className="text-center">
+                    <p className="text-gray-400 font-mono text-sm flex items-center justify-center">
+                        Designed and Built by<span className="text-blue-400 ml-1">&nbsp;Alidev</span>
+                    </p>
+                    <p className="text-gray-500 text-xs mt-2">© 2025 Estiven Muñoz. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
     )
 }
