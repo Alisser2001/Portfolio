@@ -32,7 +32,7 @@ export default function Description() {
                     <div className="relative">
                         <div className="w-80 h-80 rounded-lg overflow-hidden border-2 border-blue-400/30 group-hover:border-blue-400/50 transition-colors">
                             <Image
-                                src="/perfil.png"
+                                src="/perfil.jpg"
                                 alt="Estiven Muñoz"
                                 width={320}
                                 height={320}

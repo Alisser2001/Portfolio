@@ -1,20 +1,20 @@
 [
     {
-        "company": "InverJara",
+        "company": "BRAI",
         "role": "Fullstack Developer",
-        "start_date": "January 2024",
-        "end_date": "June 2024",
+        "start_date": "January 2025",
+        "end_date": "July 2025",
         "responsibilities": [
-            "Developed and deployed a web application using Next.js and JavaScript, integrating NextAuth for authentication and Prisma with PostgreSQL hosted on Vercel.",
-            "Implemented interactive data visualization features, including dynamic charts, tables, and filters for financial analysis.",
-            "Enabled data export capabilities in multiple formats, such as CSV, Excel, and PDF, enhancing user functionality."
+            "Designed, implemented, and optimized scalable software solutions for multiple clients and internal projects at a growing tech startup, contributing as one of the key founding developers to the company's product portfolio.",
+            "Led technical architecture using React, TypeScript, Next.js, and Supabase as the main stack, while expanding the company's technological capabilities through implementation of diverse solutions including WordPress, Shopify, React Native, and AWS.",
+            "Delivered high-quality custom solutions for external clients that resulted in a 25% increase in client retention, directly impacting business growth and establishing strong client relationships through technical excellence."
         ]
     },
     {
         "company": "SIU",
         "role": "Programming Assistant",
         "start_date": "January 2024",
-        "end_date": "Currently",
+        "end_date": "December 2024",
         "responsibilities": [
             "Assisted in the development of applications for the Research University Center (SIU) as a Programming Assistant in the Academic Stimulus Program at UdeA, focusing on backend development with Spring Boot.",
             "Contributed to the implementation of cloud-based solutions using AWS to enhance system capabilities.",
@@ -22,10 +22,21 @@
         ]
     },
     {
+        "company": "InverJara",
+        "role": "Fullstack Developer",
+        "start_date": "June 2023",
+        "end_date": "December 2023",
+        "responsibilities": [
+            "Developed and deployed a web application using Next.js and JavaScript, integrating NextAuth for authentication and Prisma with PostgreSQL hosted on Vercel.",
+            "Implemented interactive data visualization features, including dynamic charts, tables, and filters for financial analysis.",
+            "Enabled data export capabilities in multiple formats, such as CSV, Excel, and PDF, enhancing user functionality."
+        ]
+    },
+    {
         "company": "TripBoysGang",
         "role": "Fullstack Developer",
-        "start_date": "March 2024",
-        "end_date": "July 2024",
+        "start_date": "January 2023",
+        "end_date": "June 2023",
         "responsibilities": [
             "Contributed to the development of an e-commerce platform for TripBoysGang, utilizing Next.js and TypeScript for the frontend and NestJS with PostgreSQL for the backend.",
             "Managed containerization and deployment using Docker and Amazon EC2 for scalable application hosting.",
@@ -36,7 +47,7 @@
         "company": "DevsLearning",
         "role": "Fullstack Developer",
         "start_date": "June 2022",
-        "end_date": "November 2022",
+        "end_date": "December 2022",
         "responsibilities": [
             "Contributed to the development of Devs Learning, an e-learning platform for online course sales, using React and TypeScript with Material-UI for the frontend.",
             "Developed backend functionality with Node.js, Express, Sequelize, and PostgreSQL, ensuring efficient data handling.",
@@ -47,7 +58,7 @@
         "company": "SENA",
         "role": "Systems Technician",
         "start_date": "January 2020",
-        "end_date": "June 2020",
+        "end_date": "December 2020",
         "responsibilities": [
             "Specialized in diagnosing telecommunications networks and maintaining equipment and servers during my internship as a Systems Technician.",
             "Performed tasks such as fault identification, device configuration, and troubleshooting connectivity issues.",

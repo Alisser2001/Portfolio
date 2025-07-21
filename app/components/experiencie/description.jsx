@@ -6,7 +6,7 @@ export default function Description({ idx, obj }) {
             <h1 className="w-full flex flex-row justify-start items-center text-4xl font-bold h-auto mb-3">{obj.role}</h1>
             <h1 className="w-full flex flex-row justify-start items-center text-2xl font-bold h-auto mb-3"><span className="text-blue-400">@</span> {obj.company}</h1>
             <h2 className="w-full flex flex-row justify-start items-center text-xl font-bold h-auto text-blue-400 mb-8">{obj.start_date} - {obj.end_date}</h2>
-            <ul className="flex flex-col w-full 2xl:w-[90%] h-auto text-lg font-semibold">
+            <ul className="flex flex-col w-full h-auto text-lg font-semibold">
                 {obj.responsibilities.map((obj2, idx2) => {
                     return (
                         <p key={idx2 + Math.random()*(1000000-1)+1} className='flex flex-row w-full h-auto justify-start items-start text-xl font-bold mb-8'>

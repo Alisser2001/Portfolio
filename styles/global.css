@@ -14,6 +14,10 @@ body {
     background-color: #161616;
     overflow-x: hidden;
     font-family: "JetBrains Mono", "Fira Code", "monospace";
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
 }
 
 body::-webkit-scrollbar {

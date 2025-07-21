@@ -4,6 +4,8 @@
     "Python",
     "Java",
     "ReactJs",
+    "React Native",
+    "Expo",
     "NextJs",
     "ViteJs",
     "Tailwind",
@@ -20,6 +22,7 @@
     "MySQL",
     "MongoDB",
     "SQLServer",
+    "Supabase",
     "GCP",
     "AWS (S3, EC2)"
   ]

@@ -1,5 +1,56 @@
 [
     {
+        "img": "/Ruufe.png",
+        "title": "RUUFE",
+        "description": "Web application for warehouse management developed for Ruufe, Latin America's #1 B2C e-commerce hub. Built comprehensive inventory management features and integrated seamlessly with their Shopify platform to streamline operations.",
+        "repo": "https://github.com/Anders1718/ruufe-whs",
+        "link": "https://whs.ruufe.com/login",
+        "techs": [
+            "Typescript",
+            "NextJs",
+            "Supabase",
+            "Shopify"
+        ]
+    },
+    {
+        "img": "/Facemark.png",
+        "title": "Facemark",
+        "description": "Employee time tracking web application powered by AWS Rekognition facial recognition technology. Features automated clock-in/out through facial recognition, comprehensive metrics generation, and real-time attendance monitoring.",
+        "repo": "https://github.com/jorgeLDmesa/FaceMark",
+        "link": "https://facemark.vercel.app/",
+        "techs": [
+            "Typescript",
+            "NextJs",
+            "Supabase",
+            "AWS Rekognition"
+        ]
+    },
+    {
+        "img": "/GioGroupe.png",
+        "title": "GioGroupe",
+        "description": "Mobile application for GioGroupe, a premium cocktail and catering services company. Comprehensive event management system featuring client management, staff coordination, service scheduling, pricing management, detailed reporting, and user administration.",
+        "repo": "https://github.com/Alisser2001/gio-groupe",
+        "techs": [
+            "Typescript",
+            "Expo",
+            "React Native",
+            "Supabase"
+        ]
+    },
+    {
+        "img": "/Papeleo.png",
+        "title": "Papeleo",
+        "description": "Document creation and editing web platform that enables users to generate and customize documents from templates. Features advanced document editing capabilities, template management, and integrated OpenAI functionality for enhanced document processing.",
+        "repo": "https://github.com/jorgeLDmesa/doc.papeleo",
+        "link": "https://www.papeleo.co/",
+        "techs": [
+            "Typescript",
+            "NextJs",
+            "Supabase",
+            "OpenAI"
+        ]
+    },
+    {
         "img": "/InverJara.png",
         "title": "InverJara",
         "description": "Web application for managing and analyzing financial data. It allows you to upload information, view interactive graphs, pivot tables and export data in various formats.",
