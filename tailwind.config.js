@@ -35,7 +35,7 @@ module.exports = {
         "fade-1": "fade .7s linear forwards"
       },
       fontFamily: {
-        mono: ["JetBrains Mono", "Fira Code", "monospace"],
+        mono: ["var(--font-jetbrains)", "Fira Code", "monospace"],
       },
       colors: {
         border: "hsl(var(--border))",

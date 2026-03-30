@@ -1,9 +1,24 @@
 [
     {
+        "id": 0,
+        "company": "Innovati",
+        "role": "Backend Developer",
+        "start_date": "August 2025",
+        "end_date": "Today",
+        "responsibilities": [
+            "Designed and developed scalable microservices using FastAPI, applying hexagonal architecture, dependency injection, and clean code principles.",
+            "Architected backend systems using DDD concepts and design patterns, ensuring modularity, maintainability, and low technical debt.",
+            "Built and optimized APIs and event-driven integrations with a focus on performance, fault tolerance, and observability.",
+            "Implemented and managed cloud-native solutions on Microsoft Azure, including CI/CD pipelines, infrastructure configuration, and service orchestration.",
+            "Improved system reliability, security, and scalability through monitoring, secure configurations, and cloud best practices."
+        ]
+    },
+    {
+        "id": 1,
         "company": "BRAI",
         "role": "Fullstack Developer",
         "start_date": "January 2025",
-        "end_date": "July 2025",
+        "end_date": "August 2025",
         "responsibilities": [
             "Designed, implemented, and optimized scalable software solutions for multiple clients and internal projects at a growing tech startup, contributing as one of the key founding developers to the company's product portfolio.",
             "Led technical architecture using React, TypeScript, Next.js, and Supabase as the main stack, while expanding the company's technological capabilities through implementation of diverse solutions including WordPress, Shopify, React Native, and AWS.",
@@ -11,6 +26,7 @@
         ]
     },
     {
+        "id": 2,
         "company": "SIU",
         "role": "Programming Assistant",
         "start_date": "January 2024",
@@ -22,6 +38,7 @@
         ]
     },
     {
+        "id": 3,
         "company": "InverJara",
         "role": "Fullstack Developer",
         "start_date": "June 2023",
@@ -33,6 +50,7 @@
         ]
     },
     {
+        "id": 4,
         "company": "TripBoysGang",
         "role": "Fullstack Developer",
         "start_date": "January 2023",
@@ -44,6 +62,7 @@
         ]
     },
     {
+        "id": 5,
         "company": "DevsLearning",
         "role": "Fullstack Developer",
         "start_date": "June 2022",
@@ -55,6 +74,7 @@
         ]
     },
     {
+        "id": 6,
         "company": "SENA",
         "role": "Systems Technician",
         "start_date": "January 2020",

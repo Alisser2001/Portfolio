@@ -10,22 +10,22 @@ import Description from "../components/experiencie/description";
 export default function Experience() {
     const refAbout = useRef();
     const isVisibleAbout = useIsVisible(refAbout);
-    const [actualJob, setActualJob] = useState("InverJara");
+    const [actualJob, setActualJob] = useState(experience[0].company);
     const handleActualJob = (e) => {
         e.preventDefault();
         let newActualJob = e.target.getAttribute("value");
         setActualJob(newActualJob);
     }
     return (
-        <section ref={refAbout} className={`mt-20 flex flex-col w-full min-h-screen text-white justify-center items-center opacity-0 ${isVisibleAbout ? 'animate-fade-bottom-y-4' : ''}`} style={{ animationDelay: ".2" }} id='experience'>
+        <section ref={refAbout} className={`flex flex-col w-full min-h-screen text-white justify-center items-center opacity-0 mt-20 ${isVisibleAbout ? 'animate-fade-bottom-y-4' : ''}`} style={{ animationDelay: ".2" }} id='experience'>
             <Index/>
             <div className="flex flex-col md:flex-row justify-between items-start w-full h-auto">
                 <Options experience={experience} handleActualJob={handleActualJob} actualJob={actualJob}/>
                 <section className="flex flex-col justify-center items-center h-auto w-full md:w-[65%]">
-                    {experience.map((obj, idx) => {
+                    {experience.map((obj) => {
                         if (actualJob === obj.company) {
                             return (
-                                <Description idx={idx} obj={obj}/>
+                                <Description idx={obj.company} obj={obj}/>
                             )
                         }
                     })}

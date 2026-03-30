@@ -9,7 +9,7 @@ export default function Contact() {
     const refAbout = useRef();
     const isVisibleAbout = useIsVisible(refAbout);
     return (
-        <section ref={refAbout} className={`flex flex-col w-full min-h-screen text-white justify-center items-center opacity-0 ${isVisibleAbout ? 'animate-fade-bottom-y-4' : ''}`} style={{animationDelay: ".2"}} id='contact'>
+        <section ref={refAbout} className={`flex flex-col w-full min-h-screen text-white justify-center items-center opacity-0 mt-20 ${isVisibleAbout ? 'animate-fade-bottom-y-4' : ''}`} style={{animationDelay: ".2"}} id='contact'>
             <Index/>
             <Form/>
         </section>
