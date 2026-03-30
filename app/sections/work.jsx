@@ -36,7 +36,7 @@ export default function Work() {
         return colors[tech] || "bg-gray-100 text-gray-800 hover:bg-gray-200"
     }
     return (
-        <section ref={refAbout} className={`mt-20 flex flex-col w-full min-h-screen text-white justify-center items-center opacity-0 mt-20 ${isVisibleAbout ? 'animate-fade-bottom-y-4' : ''}`} style={{ animationDelay: ".2" }} id='work'>
+        <section ref={refAbout} className={`flex flex-col w-full min-h-screen text-white justify-center items-center opacity-0 mt-20 ${isVisibleAbout ? 'animate-fade-bottom-y-4' : ''}`} style={{ animationDelay: ".2" }} id='work'>
             <Index />
             <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {projects.map((obj, idx) => {
