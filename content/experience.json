@@ -1,6 +1,5 @@
 [
     {
-        "id": 0,
         "company": "Innovati",
         "role": "Backend Developer",
         "start_date": "August 2025",
@@ -14,7 +13,6 @@
         ]
     },
     {
-        "id": 1,
         "company": "BRAI",
         "role": "Fullstack Developer",
         "start_date": "January 2025",
@@ -26,7 +24,6 @@
         ]
     },
     {
-        "id": 2,
         "company": "SIU",
         "role": "Programming Assistant",
         "start_date": "January 2024",
@@ -38,7 +35,6 @@
         ]
     },
     {
-        "id": 3,
         "company": "InverJara",
         "role": "Fullstack Developer",
         "start_date": "June 2023",
@@ -50,7 +46,6 @@
         ]
     },
     {
-        "id": 4,
         "company": "TripBoysGang",
         "role": "Fullstack Developer",
         "start_date": "January 2023",
@@ -62,7 +57,6 @@
         ]
     },
     {
-        "id": 5,
         "company": "DevsLearning",
         "role": "Fullstack Developer",
         "start_date": "June 2022",
@@ -74,7 +68,6 @@
         ]
     },
     {
-        "id": 6,
         "company": "SENA",
         "role": "Systems Technician",
         "start_date": "January 2020",

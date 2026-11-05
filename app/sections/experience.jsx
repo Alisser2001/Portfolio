@@ -1,36 +1,22 @@
 "use client";
-import { useRef } from "react";
-import { useIsVisible } from "../../hooks/useIsVisible";
 import { useState } from "react";
-import experience from "../../public/experience.json";
-import Index from "../components/experiencie/index";
-import Options from "../components/experiencie/options";
-import Description from "../components/experiencie/description";
+import experience from "../../content/experience.json";
+import RevealSection from "../components/revealSection";
+import SectionHeading from "../components/sectionHeading";
+import Options from "../components/experience/options";
+import Description from "../components/experience/description";
 
 export default function Experience() {
-    const refAbout = useRef();
-    const isVisibleAbout = useIsVisible(refAbout);
-    const [actualJob, setActualJob] = useState(experience[0].company);
-    const handleActualJob = (e) => {
-        e.preventDefault();
-        let newActualJob = e.target.getAttribute("value");
-        setActualJob(newActualJob);
-    }
+    const [selectedJob, setSelectedJob] = useState(experience[0]);
     return (
-        <section ref={refAbout} className={`flex flex-col w-full min-h-screen text-white justify-center items-center opacity-0 mt-20 ${isVisibleAbout ? 'animate-fade-bottom-y-4' : ''}`} style={{ animationDelay: ".2" }} id='experience'>
-            <Index/>
+        <RevealSection id="experience">
+            <SectionHeading number="03." title="Where I’ve Worked" />
             <div className="flex flex-col md:flex-row justify-between items-start w-full h-auto">
-                <Options experience={experience} handleActualJob={handleActualJob} actualJob={actualJob}/>
+                <Options jobs={experience} selectedJob={selectedJob} onSelect={setSelectedJob} />
                 <section className="flex flex-col justify-center items-center h-auto w-full md:w-[65%]">
-                    {experience.map((obj) => {
-                        if (actualJob === obj.company) {
-                            return (
-                                <Description idx={obj.company} obj={obj}/>
-                            )
-                        }
-                    })}
+                    <Description key={selectedJob.company} job={selectedJob} />
                 </section>
             </div>
-        </section>
+        </RevealSection>
     )
 }

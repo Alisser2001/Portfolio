@@ -1,6 +1,5 @@
-'use client';
 import Image from "next/image";
-import tecnologies from "../../../public/tecnologies.json";
+import technologies from "../../../content/technologies.json";
 
 export default function Description() {
     return (
@@ -17,7 +16,7 @@ export default function Description() {
                     emphasis on creating robust backend systems and RESTful APIs.
                 </p>
                 <div className="flex flex-wrap gap-2 mt-6">
-                    {tecnologies.map((skill) => (
+                    {technologies.map((skill) => (
                         <li
                             key={skill}
                             className='flex w-auto px-4 py-2 h-8 justify-center items-center text-sm md:text-base font-bold text-blue-400 border border-blue-400 rounded-full'>

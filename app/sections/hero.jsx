@@ -1,16 +1,12 @@
-"use client";
-import { useRef } from "react";
-import { useIsVisible } from "../../hooks/useIsVisible";
+import RevealSection from "../components/revealSection";
 import Title from "../components/hero/title";
 import Description from "../components/hero/description";
 
 export default function Hero() {
-    const refAbout = useRef();
-    const isVisibleAbout = useIsVisible(refAbout);
     return (
-        <section ref={refAbout} className={`flex flex-col w-full min-h-screen text-white justify-center items-center opacity-0 md:mt-20 mt-28 ${isVisibleAbout ? 'animate-fade-bottom-y-4' : ''}`} id='hero'>
-            <Title/>
-            <Description/>
-        </section>
+        <RevealSection id="hero" spacing="md:mt-20 mt-28">
+            <Title />
+            <Description />
+        </RevealSection>
     )
 }
